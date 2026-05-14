@@ -1,0 +1,901 @@
+patient_id,patient_name,age,gender,blood_pressure,blood_sugar,allergies,past_diseases,current_symptoms,previous_drugs,diagnosed_disease,recommended_drug,alternative_drug,side_effects,risk_level
+1,Jasmine Terrell,19,Female,150/92,93,Penicillin,Kidney Disease,"chest pain, headache",Metformin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+2,Michael Montgomery,53,Male,132/90,229,Dust,"Fever, Kidney Disease","blurred vision, fatigue",Budesonide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+3,Joshua Daniels,27,Male,121/68,85,None,"Heart Disease, Fever","body pain, high temperature","Insulin, Clopidogrel",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+4,Lindsay Martinez DDS,23,Female,160/94,140,Penicillin,Diabetes,"fatigue, swelling",Ibuprofen,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+5,David Johnson,42,Female,164/105,108,Seafood,"Cold, Heart Disease","headache, dizziness","Amlodipine, Ibuprofen",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+6,Daniel Patton,28,Female,124/73,120,None,"Diabetes, Hypertension","runny nose, cough",Atorvastatin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+7,Bruce Jones,76,Female,113/85,111,Seafood,Fever,"sneezing, runny nose",Loratadine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+8,Sean Walter,65,Female,137/77,103,Penicillin,"Hypertension, Kidney Disease","high temperature, fatigue",Losartan,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+9,Julie Perez,56,Male,144/87,123,Penicillin,Hypertension,"fatigue, nausea","Atorvastatin, Insulin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+10,Ryan Bentley,18,Female,137/94,91,Seafood,"Cold, Hypertension","light sensitivity, severe headache","Budesonide, Paracetamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+11,Angela Snow,56,Female,125/70,154,Pollen,Diabetes,"high sugar, frequent urination",Amlodipine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+12,Dana Mcdaniel,80,Male,143/100,120,Peanuts,"Cold, Fever","headache, dizziness",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+13,Michael Long,46,Female,137/87,104,Peanuts,Cold,"chest pain, shortness of breath",Metformin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+14,Ashley Ellis,32,Male,138/71,250,Seafood,Fever,"high sugar, fatigue","Cetirizine, Paracetamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+15,Jennifer Miller,33,Female,131/76,86,Peanuts,"Kidney Disease, Cold","severe headache, nausea","Insulin, Atorvastatin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+16,Ariana Long,21,Female,156/88,100,None,"Asthma, Cold","headache, chest pain",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+17,Michael Russell,69,Male,108/90,114,Pollen,Asthma,"severe headache, light sensitivity","Naproxen, Loratadine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+18,Andrew Aguilar,28,Female,110/82,173,None,"Migraine, Hypertension","blurred vision, frequent urination",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+19,Patrick Price,65,Female,111/71,214,None,Diabetes,"blurred vision, high sugar",Budesonide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+20,David Wilkins,43,Male,115/83,118,Pollen,"Heart Disease, Asthma","cough, runny nose",Atorvastatin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+21,Sandra Brock,60,Female,119/80,84,Dust,Hypertension,"breathlessness, wheezing",Paracetamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+22,Ruben Bowman,74,Male,158/94,95,None,Fever,"dizziness, chest pain",Salbutamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+23,Mitchell Williams,35,Female,124/76,125,Dust,"Migraine, Asthma","wheezing, breathlessness",Amlodipine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+24,Debra Cruz,18,Female,134/74,221,Peanuts,"Kidney Disease, Fever","high sugar, fatigue",Losartan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+25,Amanda Bailey,52,Male,131/81,117,None,"Asthma, Diabetes","cough, breathlessness","Clopidogrel, Sumatriptan",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+26,Stacey Green,31,Male,136/91,139,None,Cold,"fatigue, shortness of breath",Budesonide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+27,Mallory Crane,65,Female,130/83,122,Pollen,"Asthma, Kidney Disease","cough, breathlessness",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+28,Michael Smith,30,Female,122/74,94,Dust,Kidney Disease,"cough, runny nose","Paracetamol, Lisinopril",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+29,Paige Henry,59,Female,164/90,150,Dust,"Asthma, Fever","chest pain, fatigue","Insulin, Naproxen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+30,Sarah Moore,45,Male,154/98,102,Peanuts,"Diabetes, Fever","shortness of breath, chest pain",Clopidogrel,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+31,Erin Mendoza,57,Female,137/103,147,Pollen,"Heart Disease, Cold","shortness of breath, fatigue","Salbutamol, Losartan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+32,Johnny Jacobs,57,Female,117/87,80,Penicillin,Kidney Disease,"wheezing, cough","Sumatriptan, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+33,Laurie Scott,68,Male,110/79,112,None,Cold,"light sensitivity, nausea","Loratadine, Furosemide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+34,Kenneth Griffin,33,Female,129/72,198,Peanuts,Kidney Disease,"blurred vision, high sugar","Furosemide, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+35,Jacob Sanchez,75,Male,134/83,168,Pollen,"Diabetes, Fever","frequent urination, high sugar",Losartan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+36,Amy Rivera,78,Female,169/103,147,Peanuts,"Asthma, Heart Disease","fatigue, shortness of breath","Sumatriptan, Salbutamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+37,Lisa Anderson,67,Female,140/72,97,Penicillin,"Cold, Asthma","body pain, high temperature","Atorvastatin, Sumatriptan",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+38,Jennifer Jimenez,32,Female,127/74,125,Pollen,"Kidney Disease, Asthma","breathlessness, cough","Lisinopril, Metformin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+39,Gina Carter,75,Male,156/87,115,Pollen,"Kidney Disease, Migraine","swelling, fatigue","Loratadine, Naproxen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+40,James Sutton,19,Female,126/91,105,Peanuts,"Asthma, Fever","light sensitivity, severe headache",Furosemide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+41,Gary Humphrey,23,Female,114/84,163,Pollen,"Heart Disease, Hypertension","fatigue, frequent urination","Atorvastatin, Budesonide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+42,Jane Howard,66,Female,116/67,110,Penicillin,"Cold, Heart Disease","high temperature, fatigue",Insulin,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+43,Charles Adams,71,Male,109/72,88,Peanuts,Migraine,"sneezing, cough","Clopidogrel, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+44,Nancy Rice,67,Male,154/88,122,Peanuts,"Kidney Disease, Heart Disease","headache, dizziness",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+45,Marco Clark,24,Female,107/90,116,Pollen,"Heart Disease, Diabetes","cough, sneezing","Metformin, Lisinopril",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+46,Amy Riley,45,Female,164/89,112,None,"Migraine, Cold","headache, dizziness","Atorvastatin, Lisinopril",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+47,Jennifer Hunter,74,Female,115/89,109,Dust,"Diabetes, Cold","fatigue, body pain","Budesonide, Loratadine",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+48,Calvin Miller,35,Female,165/80,123,Peanuts,Kidney Disease,"chest pain, fatigue","Loratadine, Clopidogrel",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+49,John Turner,46,Male,110/79,94,Dust,"Heart Disease, Cold","nausea, severe headache","Lisinopril, Clopidogrel",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+50,Peter Scott,35,Female,121/77,87,Pollen,"Hypertension, Heart Disease","light sensitivity, severe headache",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+51,Beth Clayton,64,Female,106/71,98,None,Fever,"high temperature, body pain",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+52,Randy Kelly,62,Male,140/89,111,Dust,"Migraine, Cold","high temperature, fatigue","Atorvastatin, Amlodipine",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+53,Mark Pratt,25,Male,130/85,84,Pollen,Asthma,"light sensitivity, severe headache","Amlodipine, Losartan",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+54,Erika Martin,67,Female,128/79,99,Dust,"Diabetes, Fever","runny nose, sneezing",Cetirizine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+55,Jennifer Spencer,28,Male,146/102,89,Peanuts,"Migraine, Heart Disease","headache, chest pain","Ibuprofen, Metformin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+56,Joseph Fox,62,Female,104/86,94,Penicillin,"Hypertension, Fever","body pain, high temperature",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+57,Sabrina Smith,21,Male,154/104,121,Pollen,Migraine,"dizziness, chest pain","Furosemide, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+58,Eric Joseph,23,Male,132/93,100,Peanuts,Hypertension,"light sensitivity, nausea",Metformin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+59,Nicole Caldwell,54,Male,111/80,113,Pollen,"Asthma, Fever","fatigue, body pain","Naproxen, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+60,Sandra Perez,38,Male,140/90,116,Dust,"Kidney Disease, Migraine","fatigue, shortness of breath",Sumatriptan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+61,Jacqueline Brown,25,Female,162/80,132,None,"Diabetes, Hypertension","fatigue, shortness of breath","Naproxen, Atorvastatin",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+62,Rebecca Padilla,35,Male,118/79,111,Penicillin,Asthma,"cough, runny nose","Metformin, Paracetamol",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+63,Daniel Hudson,47,Male,144/100,130,Pollen,"Migraine, Cold","dizziness, chest pain",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+64,Joseph Robertson,76,Male,104/73,106,Seafood,Fever,"sneezing, runny nose","Naproxen, Lisinopril",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+65,Timothy Hudson DDS,40,Female,140/94,114,Pollen,"Cold, Heart Disease","nausea, light sensitivity",Furosemide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+66,Mark Powell,38,Female,132/82,189,None,Asthma,"frequent urination, blurred vision","Losartan, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+67,Alyssa Fox,18,Male,131/90,89,Peanuts,"Heart Disease, Fever","severe headache, nausea","Amlodipine, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+68,Jeremy Simon,79,Female,160/97,133,None,Cold,"fatigue, swelling","Loratadine, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+69,Leslie Li,46,Male,154/85,87,Seafood,"Heart Disease, Asthma","dizziness, headache","Salbutamol, Losartan",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+70,Jeffrey Cooley,28,Male,107/89,104,None,"Asthma, Hypertension","cough, breathlessness","Paracetamol, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+71,Mark Wilson,75,Female,139/75,84,Pollen,"Kidney Disease, Heart Disease","nausea, light sensitivity","Sumatriptan, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+72,Chelsea Merritt,24,Male,129/88,102,Peanuts,"Diabetes, Kidney Disease","light sensitivity, nausea","Paracetamol, Metformin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+73,Donna Ortega,76,Female,136/79,239,Peanuts,"Cold, Heart Disease","frequent urination, high sugar",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+74,Sandy Miller,58,Male,133/90,121,Dust,"Diabetes, Fever","breathlessness, wheezing","Salbutamol, Insulin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+75,Darren Thompson,29,Male,128/100,119,None,Fever,"fatigue, nausea","Ibuprofen, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+76,Michael Kennedy,79,Male,114/94,94,Pollen,"Hypertension, Kidney Disease","light sensitivity, nausea","Metformin, Salbutamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+77,Michael Johnson,61,Female,167/92,142,Seafood,Cold,"fatigue, shortness of breath","Metformin, Ibuprofen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+78,Carla Cunningham,76,Male,134/100,142,Pollen,"Hypertension, Migraine","shortness of breath, fatigue",Insulin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+79,Michael Morris,24,Male,169/89,109,Dust,"Asthma, Cold","dizziness, chest pain",Naproxen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+80,Lauren Jones,62,Female,116/84,196,None,Heart Disease,"frequent urination, blurred vision","Insulin, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+81,Amy Lopez,23,Male,145/89,81,Seafood,Asthma,"severe headache, nausea",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+82,Carl Baker,55,Male,114/75,89,None,"Asthma, Hypertension","runny nose, cough","Budesonide, Insulin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+83,Dustin Wilson,18,Female,130/77,117,Seafood,Fever,"wheezing, breathlessness",Salbutamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+84,Melanie Rodriguez,65,Male,165/99,108,None,"Cold, Fever","chest pain, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+85,Jennifer Hernandez,48,Female,123/73,202,Seafood,Heart Disease,"blurred vision, fatigue",Amlodipine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+86,Steven Robinson,42,Female,159/96,128,Dust,Cold,"shortness of breath, chest pain","Sumatriptan, Naproxen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+87,Brian Clarke,43,Female,111/80,107,None,"Asthma, Heart Disease","nausea, light sensitivity","Amlodipine, Insulin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+88,Linda Torres,24,Female,128/92,88,None,Kidney Disease,"nausea, fatigue","Lisinopril, Naproxen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+89,Jo Brooks,56,Female,122/68,116,Seafood,Migraine,"fatigue, high temperature",Losartan,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+90,James Anderson,25,Female,166/87,141,None,"Diabetes, Hypertension","shortness of breath, chest pain","Ibuprofen, Sumatriptan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+91,Laurie Gilbert,73,Male,123/82,84,Dust,Cold,"breathlessness, cough","Lisinopril, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+92,Brenda Brooks,64,Female,136/84,85,Pollen,Diabetes,"high temperature, fatigue",Paracetamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+93,Rachel Rogers,56,Female,131/78,93,None,"Kidney Disease, Diabetes","light sensitivity, severe headache","Naproxen, Paracetamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+94,Casey Gamble,43,Male,100/71,99,Pollen,"Fever, Asthma","cough, runny nose",Metformin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+95,Elizabeth Johnson,26,Female,122/77,112,None,Kidney Disease,"cough, wheezing",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+96,Christopher Jones,54,Female,166/92,135,Seafood,"Hypertension, Cold","fatigue, shortness of breath",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+97,Cathy Sandoval,71,Female,110/83,86,Penicillin,"Hypertension, Cold","severe headache, nausea","Atorvastatin, Losartan",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+98,Mark Campos,50,Male,168/101,97,Penicillin,Cold,"dizziness, chest pain",Salbutamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+99,James Short,66,Male,110/90,111,Dust,"Heart Disease, Hypertension","wheezing, cough","Amlodipine, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+100,Douglas Jackson,55,Male,122/81,84,None,"Diabetes, Migraine","body pain, fatigue","Ibuprofen, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+101,Kimberly Mullins,47,Male,148/100,121,Dust,"Migraine, Fever","nausea, swelling",Insulin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+102,Joseph Flores,50,Male,137/92,130,Dust,Heart Disease,"dizziness, chest pain","Ibuprofen, Cetirizine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+103,Lori Garza,68,Female,112/80,152,Dust,"Asthma, Migraine","blurred vision, frequent urination",Salbutamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+104,Jessica Jackson,26,Male,139/92,109,Penicillin,Hypertension,"nausea, fatigue","Clopidogrel, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+105,Kelly Ramos,39,Female,112/72,88,Seafood,"Hypertension, Fever","cough, runny nose",Atorvastatin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+106,Michael Kelley,56,Female,109/75,91,Peanuts,"Diabetes, Cold","cough, breathlessness","Loratadine, Naproxen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+107,Crystal Yoder,32,Male,124/95,110,Penicillin,"Migraine, Kidney Disease","severe headache, nausea","Furosemide, Paracetamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+108,Catherine Duarte,69,Male,116/66,110,Seafood,Fever,"sneezing, cough",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+109,Logan Love,71,Female,107/77,108,Dust,"Diabetes, Cold","wheezing, breathlessness","Loratadine, Cetirizine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+110,Oscar Villa,19,Female,106/87,101,Pollen,Fever,"cough, runny nose","Salbutamol, Furosemide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+111,Michael Bailey,75,Male,110/78,167,Penicillin,"Hypertension, Kidney Disease","frequent urination, high sugar","Loratadine, Salbutamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+112,Nancy Jackson,58,Female,124/78,138,Penicillin,Asthma,"fatigue, swelling","Lisinopril, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+113,Ashley Gilbert,29,Male,153/86,89,Dust,"Migraine, Diabetes","nausea, swelling","Clopidogrel, Salbutamol",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+114,Timothy Smith,40,Male,141/103,106,Pollen,"Heart Disease, Kidney Disease","headache, chest pain",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+115,Amy Andrews,69,Male,107/84,82,Seafood,Cold,"wheezing, breathlessness",Atorvastatin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+116,Pam Smith,70,Female,136/76,133,Dust,"Heart Disease, Kidney Disease","nausea, swelling",Atorvastatin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+117,Annette Valentine,74,Female,148/87,106,Pollen,"Heart Disease, Kidney Disease","swelling, fatigue","Amlodipine, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+118,Pam Peterson,52,Female,115/73,85,Pollen,"Migraine, Fever","wheezing, cough","Budesonide, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+119,Melissa Hill,64,Female,129/83,175,Seafood,"Heart Disease, Fever","fatigue, blurred vision",Metformin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+120,Ryan Hall,20,Male,109/77,103,None,Asthma,"nausea, light sensitivity","Clopidogrel, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+121,John Foster,51,Female,117/80,121,Seafood,Diabetes,"wheezing, breathlessness",Naproxen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+122,Stephen Greer,34,Female,163/91,124,Peanuts,Hypertension,"dizziness, chest pain",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+123,Erin Adams,23,Female,127/92,84,None,"Asthma, Heart Disease","light sensitivity, nausea",Clopidogrel,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+124,Tiffany Zimmerman,68,Male,115/90,111,Pollen,"Migraine, Kidney Disease","cough, sneezing",Amlodipine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+125,Melissa Shaw,51,Female,131/88,84,Seafood,Migraine,"severe headache, nausea","Clopidogrel, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+126,Craig Glover,67,Male,118/86,83,Seafood,"Asthma, Hypertension","breathlessness, cough","Loratadine, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+127,Kimberly Meyer,72,Male,116/71,120,Seafood,Fever,"fatigue, body pain",Budesonide,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+128,Theodore Thomas,28,Female,131/88,82,None,Fever,"breathlessness, cough",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+129,Melissa Sutton,74,Female,124/85,95,Pollen,"Migraine, Diabetes","light sensitivity, nausea",Budesonide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+130,Sara Austin,31,Female,143/74,100,None,"Kidney Disease, Hypertension","light sensitivity, nausea","Losartan, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+131,Valerie Kim,46,Male,109/68,83,Peanuts,"Cold, Kidney Disease","body pain, fatigue",Atorvastatin,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+132,Emma Ayers,30,Male,161/96,119,Dust,"Diabetes, Migraine","shortness of breath, fatigue","Sumatriptan, Losartan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+133,Leslie Ho,21,Female,125/89,247,Dust,Hypertension,"blurred vision, frequent urination","Salbutamol, Sumatriptan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+134,Melissa Pierce,41,Male,145/76,121,Seafood,"Fever, Diabetes","nausea, swelling","Sumatriptan, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+135,Susan Smith,26,Male,160/96,106,Peanuts,Cold,"chest pain, dizziness","Insulin, Metformin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+136,Rose Stephens,69,Female,163/94,99,Seafood,"Heart Disease, Hypertension","fatigue, chest pain","Ibuprofen, Naproxen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+137,Roy Ramos,63,Female,135/70,103,Peanuts,"Fever, Kidney Disease","nausea, severe headache",Naproxen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+138,Alyssa Moore,64,Male,130/70,113,Pollen,Cold,"runny nose, sneezing",Losartan,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+139,Stephen Baker,44,Male,156/102,103,Pollen,Asthma,"shortness of breath, fatigue",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+140,William Nichols,38,Male,149/92,106,Penicillin,"Migraine, Hypertension","nausea, fatigue",Paracetamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+141,Chelsea Allen,67,Female,113/87,125,Seafood,"Heart Disease, Fever","body pain, fatigue","Ibuprofen, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+142,James Williams,75,Female,142/99,136,Peanuts,Fever,"swelling, fatigue",Clopidogrel,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+143,Timothy Novak,65,Female,113/71,114,Seafood,Hypertension,"body pain, fatigue",Loratadine,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+144,Jody Hernandez,58,Male,103/68,106,Pollen,Asthma,"sneezing, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+145,Taylor Morales,59,Male,123/80,98,Penicillin,Cold,"light sensitivity, severe headache",Budesonide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+146,Timothy Brown,71,Female,135/85,163,Peanuts,Fever,"high sugar, fatigue",Atorvastatin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+147,Jordan Hill,74,Male,137/84,97,Peanuts,"Asthma, Heart Disease","severe headache, light sensitivity","Paracetamol, Clopidogrel",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+148,Eric Hopkins,68,Female,166/101,138,Penicillin,"Kidney Disease, Fever","chest pain, fatigue","Amlodipine, Cetirizine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+149,Zachary Dougherty,48,Female,134/77,80,Seafood,Migraine,"wheezing, cough","Atorvastatin, Salbutamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+150,Sydney Galvan,34,Female,132/77,147,Dust,"Asthma, Cold","fatigue, frequent urination","Losartan, Atorvastatin",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+151,Gerald Bright,57,Male,144/84,120,Seafood,"Kidney Disease, Heart Disease","chest pain, shortness of breath","Cetirizine, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+152,Eric Davis,51,Female,168/96,89,Seafood,Cold,"chest pain, headache",Budesonide,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+153,Lisa Lee,25,Male,142/85,85,None,Migraine,"light sensitivity, nausea",Lisinopril,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+154,Christine Watson,61,Female,106/82,96,None,Diabetes,"severe headache, light sensitivity","Clopidogrel, Naproxen",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+155,Kathleen Oliver,77,Female,137/94,111,Peanuts,"Heart Disease, Cold","headache, chest pain","Furosemide, Cetirizine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+156,Tiffany Olson,59,Female,108/75,114,Peanuts,Diabetes,"wheezing, breathlessness",Ibuprofen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+157,Annette Hall,52,Female,134/82,114,Pollen,"Cold, Heart Disease","fatigue, swelling",Insulin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+158,Jack Rodriguez,33,Male,112/73,216,Seafood,Cold,"fatigue, frequent urination",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+159,Maria Osborn,66,Male,108/81,98,Dust,"Cold, Asthma","cough, sneezing",Loratadine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+160,Sandra Christensen,53,Male,130/83,211,Pollen,"Kidney Disease, Migraine","blurred vision, fatigue","Lisinopril, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+161,Pamela Mitchell,66,Female,112/77,99,Pollen,"Diabetes, Fever","cough, breathlessness","Lisinopril, Paracetamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+162,Richard Ryan,34,Male,121/85,85,Seafood,Cold,"sneezing, runny nose",Paracetamol,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+163,Ms. Patricia Herrera DDS,73,Male,116/88,232,Peanuts,Heart Disease,"frequent urination, blurred vision","Metformin, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+164,Kristina Smith MD,65,Female,150/104,130,Dust,Heart Disease,"headache, dizziness","Furosemide, Loratadine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+165,Wendy Hernandez,34,Female,132/80,109,Penicillin,"Cold, Asthma","high temperature, body pain","Lisinopril, Metformin",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+166,Timothy Luna,19,Female,122/88,117,Penicillin,"Asthma, Hypertension","cough, wheezing","Loratadine, Cetirizine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+167,Adam Lamb,53,Female,121/94,111,Pollen,"Asthma, Heart Disease","light sensitivity, nausea","Budesonide, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+168,Sherry Nichols,76,Male,121/71,84,Penicillin,Kidney Disease,"cough, breathlessness",Loratadine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+169,Mark Massey,31,Female,121/71,219,Dust,"Diabetes, Migraine","blurred vision, high sugar","Metformin, Naproxen",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+170,Brandi Marshall,19,Female,111/68,86,None,Cold,"fatigue, high temperature","Clopidogrel, Salbutamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+171,Mr. Eric White,79,Female,159/98,105,Pollen,"Hypertension, Heart Disease","fatigue, chest pain",Amlodipine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+172,Tammy King,21,Male,115/72,111,Peanuts,Diabetes,"nausea, light sensitivity",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+173,Angelica Wilson,35,Male,109/91,97,Peanuts,Heart Disease,"light sensitivity, severe headache",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+174,Ronald Bright,77,Male,139/80,121,Dust,"Kidney Disease, Migraine","swelling, fatigue",Amlodipine,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+175,Teresa Reeves,24,Female,117/72,183,Pollen,Fever,"blurred vision, frequent urination","Naproxen, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+176,Sean Davis,29,Female,125/99,124,Peanuts,Hypertension,"fatigue, swelling","Salbutamol, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+177,Julie Gomez,65,Female,115/81,86,Pollen,"Migraine, Asthma","breathlessness, cough","Losartan, Amlodipine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+178,Evan Mccormick,53,Female,111/70,85,Peanuts,"Kidney Disease, Diabetes","nausea, severe headache","Lisinopril, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+179,Lisa Phillips,54,Male,124/70,88,Pollen,"Migraine, Hypertension","sneezing, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+180,Joshua Jones,48,Male,123/73,95,Pollen,Migraine,"fatigue, body pain",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+181,Tyler West,71,Female,151/94,111,Pollen,"Heart Disease, Fever","shortness of breath, chest pain",Naproxen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+182,Carlos Barnett,36,Female,166/105,105,Seafood,"Kidney Disease, Asthma","shortness of breath, fatigue",Cetirizine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+183,Anthony Lawrence,61,Male,135/84,125,Penicillin,"Hypertension, Kidney Disease","breathlessness, wheezing","Naproxen, Amlodipine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+184,Destiny Butler,60,Male,127/90,104,Peanuts,"Kidney Disease, Fever","high temperature, body pain","Insulin, Furosemide",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+185,Mr. Alan Reynolds,24,Male,157/90,126,Penicillin,"Heart Disease, Kidney Disease","chest pain, headache","Losartan, Metformin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+186,David Harper,46,Female,125/79,117,None,"Diabetes, Cold","runny nose, cough",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+187,Diana Harper,71,Male,157/94,106,Pollen,"Heart Disease, Cold","dizziness, headache",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+188,Lisa Hull,22,Female,132/105,135,Seafood,"Hypertension, Heart Disease","chest pain, fatigue",Loratadine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+189,Ernest Williams,39,Female,135/84,94,Penicillin,Kidney Disease,"wheezing, breathlessness","Metformin, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+190,Laura Christensen,55,Female,129/70,93,Pollen,Hypertension,"severe headache, nausea",Clopidogrel,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+191,Maxwell Powell,34,Female,168/105,105,Peanuts,"Hypertension, Asthma","chest pain, dizziness","Sumatriptan, Ibuprofen",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+192,Jessica Thompson,76,Male,108/75,87,Seafood,Asthma,"high temperature, body pain","Salbutamol, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+193,Emily Stewart,54,Female,118/75,111,Pollen,Migraine,"cough, breathlessness","Salbutamol, Amlodipine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+194,Lori Carter,73,Female,140/70,202,Pollen,"Migraine, Cold","frequent urination, fatigue","Lisinopril, Clopidogrel",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+195,Sherry Rodriguez,23,Male,130/77,98,Pollen,Fever,"breathlessness, wheezing",Sumatriptan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+196,Melissa Decker,54,Male,152/102,108,None,"Cold, Migraine","chest pain, headache",Loratadine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+197,Rachel Pearson,34,Female,110/84,87,None,"Kidney Disease, Hypertension","severe headache, light sensitivity",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+198,Stephanie Sutton,52,Female,168/97,100,Pollen,"Fever, Kidney Disease","shortness of breath, fatigue",Salbutamol,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+199,Austin Ho,35,Male,132/74,171,Dust,"Cold, Kidney Disease","frequent urination, high sugar","Naproxen, Amlodipine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+200,James Davis,42,Female,124/95,135,Peanuts,"Heart Disease, Cold","swelling, fatigue","Atorvastatin, Ibuprofen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+201,Carol Lawson,64,Female,157/87,119,Seafood,"Cold, Migraine","dizziness, headache","Atorvastatin, Lisinopril",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+202,Jennifer Wallace,54,Female,130/80,123,Penicillin,Migraine,"breathlessness, cough",Losartan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+203,Derek Black,47,Male,132/76,88,Dust,Fever,"light sensitivity, nausea",Clopidogrel,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+204,Jennifer Johnson,21,Female,125/79,124,Penicillin,Hypertension,"breathlessness, wheezing",Cetirizine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+205,Lisa Brooks,51,Female,100/65,101,Peanuts,Migraine,"cough, sneezing",Loratadine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+206,Gabrielle Massey,24,Female,158/94,93,Peanuts,Hypertension,"dizziness, headache",Budesonide,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+207,Trevor Miller,58,Male,126/84,108,Pollen,Asthma,"cough, runny nose",Furosemide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+208,Renee Hines,68,Male,145/88,131,Penicillin,"Diabetes, Kidney Disease","chest pain, fatigue","Cetirizine, Paracetamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+209,Peter Dickerson,36,Male,135/90,109,Penicillin,"Hypertension, Fever","swelling, nausea",Clopidogrel,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+210,Mary Schmidt,73,Female,143/92,128,None,Diabetes,"swelling, fatigue",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+211,Charles Hill,78,Female,126/79,220,None,"Hypertension, Heart Disease","blurred vision, frequent urination",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+212,Clayton Thompson,80,Male,134/75,105,Pollen,"Kidney Disease, Heart Disease","runny nose, cough",Insulin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+213,Melissa Smith,47,Male,154/90,92,Peanuts,Asthma,"headache, chest pain","Clopidogrel, Paracetamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+214,Mr. Brandon Marshall,28,Female,108/88,97,Peanuts,Heart Disease,"fatigue, high temperature","Paracetamol, Naproxen",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+215,Heather Harris,49,Female,167/96,88,Seafood,"Asthma, Migraine","dizziness, headache",Losartan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+216,Anna Barr,20,Male,117/71,200,Penicillin,Asthma,"high sugar, frequent urination",Lisinopril,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+217,Matthew Armstrong,76,Female,137/77,121,None,Asthma,"fatigue, swelling",Insulin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+218,Trevor Coleman,73,Female,124/80,85,Dust,Heart Disease,"light sensitivity, nausea",Ibuprofen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+219,Jodi Rhodes,47,Female,131/89,92,Peanuts,Diabetes,"runny nose, cough","Metformin, Losartan",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+220,Angela Estrada,78,Female,110/82,248,Penicillin,Cold,"high sugar, fatigue","Naproxen, Metformin",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+221,Michelle Smith,23,Male,114/81,106,Pollen,"Hypertension, Fever","fatigue, body pain",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+222,Samantha Moran,55,Male,162/89,100,None,"Kidney Disease, Heart Disease","dizziness, chest pain","Atorvastatin, Loratadine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+223,Michelle Meadows,26,Male,109/68,90,Dust,"Kidney Disease, Diabetes","sneezing, runny nose","Cetirizine, Loratadine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+224,Rebecca Garcia,23,Male,154/104,87,None,Hypertension,"headache, dizziness",Clopidogrel,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+225,Kimberly Pineda,34,Male,101/77,108,None,Migraine,"fatigue, high temperature",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+226,Rebecca Ortiz,26,Male,125/76,120,Pollen,"Hypertension, Diabetes","runny nose, cough",Cetirizine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+227,Cameron Orozco,23,Female,108/71,109,Penicillin,"Kidney Disease, Cold","breathlessness, cough",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+228,Albert Ferguson,31,Male,147/88,118,None,Fever,"chest pain, fatigue","Lisinopril, Sumatriptan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+229,Lisa Rogers,35,Female,143/98,97,Dust,Kidney Disease,"chest pain, headache","Naproxen, Paracetamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+230,Laura Bates,42,Female,141/80,110,Seafood,Fever,"fatigue, chest pain",Naproxen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+231,Timothy Sanchez,80,Male,106/72,95,Dust,Kidney Disease,"sneezing, cough","Budesonide, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+232,Bryan Clark,76,Male,152/98,126,Seafood,"Fever, Hypertension","chest pain, fatigue","Insulin, Naproxen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+233,Gary Wilson,19,Female,100/75,119,Peanuts,"Asthma, Kidney Disease","cough, runny nose","Insulin, Metformin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+234,Timothy Smith,67,Male,132/86,103,Peanuts,"Hypertension, Asthma","breathlessness, wheezing","Atorvastatin, Amlodipine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+235,Tiffany Gilbert,68,Female,140/80,130,Penicillin,Asthma,"nausea, fatigue","Ibuprofen, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+236,Antonio Norman,64,Male,135/88,105,Penicillin,Heart Disease,"cough, breathlessness",Losartan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+237,Dr. Samantha Cantu,65,Male,145/91,110,Dust,"Migraine, Diabetes","chest pain, fatigue","Cetirizine, Losartan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+238,Morgan Maynard,68,Male,100/66,104,None,Kidney Disease,"body pain, fatigue","Furosemide, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+239,Stephanie Hicks,68,Male,115/84,84,Pollen,Heart Disease,"severe headache, nausea","Losartan, Insulin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+240,Marc Mcconnell,64,Male,122/72,101,None,Kidney Disease,"cough, wheezing",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+241,Judy Fleming,31,Male,156/102,125,Seafood,"Fever, Hypertension","fatigue, shortness of breath",Insulin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+242,William Fisher,27,Male,128/70,107,Dust,"Cold, Diabetes","severe headache, nausea",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+243,Terri Roberts,48,Male,154/97,115,Dust,Kidney Disease,"dizziness, chest pain",Clopidogrel,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+244,Eric Kidd,46,Male,113/84,109,Seafood,"Diabetes, Hypertension","wheezing, breathlessness",Amlodipine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+245,Hannah Perry,80,Male,155/76,138,Peanuts,"Cold, Migraine","fatigue, nausea","Amlodipine, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+246,Carmen King,50,Male,113/84,162,Peanuts,Asthma,"frequent urination, fatigue",Lisinopril,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+247,Daniel Kelly,30,Male,158/83,105,Pollen,Kidney Disease,"nausea, swelling","Atorvastatin, Lisinopril",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+248,Morgan Jenkins,68,Female,113/83,159,Dust,Hypertension,"frequent urination, high sugar",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+249,Mary Thomas,34,Female,151/93,123,Peanuts,Fever,"fatigue, swelling","Salbutamol, Ibuprofen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+250,Cindy Peters,20,Female,141/97,100,Pollen,"Heart Disease, Diabetes","swelling, fatigue","Ibuprofen, Salbutamol",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+251,Robert Johns,80,Male,143/94,113,Peanuts,"Hypertension, Migraine","dizziness, chest pain","Cetirizine, Sumatriptan",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+252,Lori Morgan,66,Female,108/86,90,Penicillin,"Asthma, Kidney Disease","severe headache, nausea",Budesonide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+253,Jonathan Pugh,33,Male,124/71,186,Dust,"Migraine, Fever","frequent urination, blurred vision","Losartan, Atorvastatin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+254,Robert Schmidt,56,Female,116/85,117,None,"Asthma, Kidney Disease","light sensitivity, nausea","Amlodipine, Salbutamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+255,Jason Stevens,72,Male,132/77,121,Penicillin,"Kidney Disease, Fever","breathlessness, cough",Metformin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+256,Stacy Lyons,56,Male,112/78,118,Dust,"Kidney Disease, Migraine","wheezing, cough","Sumatriptan, Salbutamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+257,Mary Martinez,55,Male,120/91,127,Peanuts,"Hypertension, Cold","fatigue, nausea",Atorvastatin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+258,Carmen Johnson,73,Female,146/100,135,Seafood,Asthma,"fatigue, shortness of breath",Insulin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+259,Michael Gamble,60,Female,128/98,86,Peanuts,"Fever, Cold","nausea, fatigue","Furosemide, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+260,Lynn Santos,39,Male,134/85,110,Penicillin,"Asthma, Kidney Disease","runny nose, sneezing",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+261,Joseph Green,64,Male,121/85,85,Dust,Fever,"high temperature, body pain","Atorvastatin, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+262,Holly Strickland,72,Male,135/71,120,Pollen,"Cold, Fever","light sensitivity, severe headache",Furosemide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+263,Eileen King,73,Male,114/76,183,Peanuts,"Asthma, Migraine","blurred vision, high sugar",Amlodipine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+264,Chad Villarreal,38,Male,105/84,97,Peanuts,Migraine,"breathlessness, cough",Salbutamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+265,Jessica Cuevas,43,Female,150/87,85,Peanuts,"Diabetes, Asthma","swelling, nausea",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+266,Cindy Scott,32,Female,119/69,86,Pollen,Hypertension,"sneezing, runny nose",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+267,Alex Christian,45,Male,151/95,112,None,"Diabetes, Hypertension","chest pain, fatigue",Salbutamol,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+268,Diane Hill,25,Female,127/90,82,None,Diabetes,"wheezing, cough",Metformin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+269,Dr. John Ryan,46,Female,127/92,101,Seafood,Diabetes,"fatigue, swelling","Lisinopril, Atorvastatin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+270,Jose Moody,57,Male,126/68,112,Penicillin,"Hypertension, Kidney Disease","fatigue, high temperature",Naproxen,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+271,Derek Garcia,71,Male,122/87,106,None,Migraine,"body pain, high temperature",Naproxen,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+272,James Dyer,60,Male,139/73,246,Pollen,Hypertension,"blurred vision, fatigue",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+273,Christopher Donovan,34,Female,103/68,91,None,"Heart Disease, Cold","high temperature, body pain",Losartan,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+274,Destiny Davis,72,Male,131/90,161,Penicillin,"Fever, Heart Disease","high sugar, frequent urination",Clopidogrel,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+275,Heather Harrington,43,Female,164/93,109,Penicillin,"Asthma, Diabetes","chest pain, dizziness",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+276,Debra Brown,44,Female,163/90,124,Pollen,Asthma,"dizziness, chest pain","Naproxen, Insulin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+277,Sherri Fisher,22,Female,130/80,141,Peanuts,"Hypertension, Cold","frequent urination, high sugar",Naproxen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+278,Amanda Smith,27,Male,120/95,95,Dust,"Asthma, Diabetes","nausea, fatigue","Atorvastatin, Losartan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+279,Chelsea Fox,50,Male,127/90,188,Pollen,Migraine,"blurred vision, fatigue","Sumatriptan, Insulin",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+280,Tasha Kline MD,25,Female,131/83,115,Dust,Hypertension,"shortness of breath, chest pain","Cetirizine, Atorvastatin",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+281,Tina Smith,70,Male,144/94,111,Dust,"Migraine, Diabetes","fatigue, shortness of breath",Loratadine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+282,Heather Foster,53,Female,106/66,90,Pollen,"Hypertension, Asthma","body pain, high temperature",Cetirizine,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+283,Brandon Lewis,47,Male,121/68,106,Peanuts,"Migraine, Heart Disease","cough, runny nose",Naproxen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+284,Brooke Wilson,53,Female,136/88,201,Seafood,Asthma,"frequent urination, high sugar",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+285,Danielle Gonzalez,50,Female,156/99,148,Pollen,"Kidney Disease, Asthma","fatigue, chest pain","Sumatriptan, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+286,Jacob Barron,71,Female,135/85,93,Peanuts,"Heart Disease, Migraine","high temperature, fatigue",Budesonide,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+287,Christopher Snyder,63,Male,152/97,120,Penicillin,"Kidney Disease, Migraine","fatigue, shortness of breath",Losartan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+288,Tracy Barnes,60,Male,116/78,236,Seafood,"Asthma, Kidney Disease","frequent urination, blurred vision",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+289,Nathan Moody,40,Female,113/89,226,Pollen,"Cold, Fever","frequent urination, high sugar","Insulin, Sumatriptan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+290,Jeffrey Smith,79,Male,130/103,106,Penicillin,Heart Disease,"chest pain, shortness of breath",Cetirizine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+291,Brittany Hansen,29,Male,167/88,109,Pollen,"Fever, Hypertension","headache, dizziness",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+292,Cynthia Henderson,20,Male,134/80,118,Seafood,"Heart Disease, Diabetes","breathlessness, wheezing","Loratadine, Amlodipine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+293,Anthony Davis,44,Female,107/81,94,Peanuts,"Heart Disease, Asthma","breathlessness, wheezing",Naproxen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+294,Kayla Williams,25,Female,124/77,222,Peanuts,"Kidney Disease, Migraine","frequent urination, fatigue",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+295,Michael Williams,19,Female,132/90,112,None,Fever,"body pain, fatigue",Atorvastatin,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+296,John Peterson,80,Male,125/72,93,None,"Hypertension, Migraine","cough, breathlessness","Amlodipine, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+297,Karen Smith,63,Female,107/72,84,Pollen,"Hypertension, Fever","severe headache, light sensitivity",Paracetamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+298,Vincent Carrillo,45,Female,121/87,128,None,Diabetes,"swelling, nausea",Clopidogrel,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+299,Brian Briggs,68,Female,138/67,98,Pollen,"Diabetes, Cold","body pain, fatigue",Loratadine,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+300,Megan Washington,79,Male,119/86,121,Pollen,Hypertension,"body pain, high temperature",Metformin,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+301,Dustin Kim,37,Male,157/91,111,Penicillin,Asthma,"chest pain, headache",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+302,Jennifer Jefferson,72,Female,130/87,149,Pollen,Fever,"high sugar, blurred vision",Cetirizine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+303,John Christensen,40,Male,145/83,108,Dust,Heart Disease,"fatigue, chest pain","Sumatriptan, Budesonide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+304,Bianca Brady,54,Female,130/80,107,Dust,"Cold, Kidney Disease","breathlessness, cough",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+305,Felicia Leon,61,Female,133/85,109,None,"Migraine, Fever","wheezing, cough",Budesonide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+306,Michaela Malone,72,Male,134/71,96,Penicillin,Diabetes,"fatigue, high temperature",Furosemide,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+307,Melanie Newton,53,Female,127/87,200,None,"Cold, Kidney Disease","frequent urination, blurred vision","Salbutamol, Loratadine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+308,Donna Schmidt,41,Male,135/100,124,Seafood,Migraine,"nausea, swelling",Budesonide,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+309,Jeremiah Ramirez,65,Female,135/81,82,Penicillin,Hypertension,"breathlessness, wheezing","Clopidogrel, Losartan",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+310,Max Carter,42,Female,159/81,92,Dust,Fever,"fatigue, shortness of breath","Budesonide, Cetirizine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+311,Jerry Sanchez,51,Female,159/92,118,Pollen,"Migraine, Kidney Disease","dizziness, chest pain","Metformin, Paracetamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+312,Kenneth Diaz,32,Male,121/90,97,Dust,Asthma,"breathlessness, cough","Losartan, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+313,David Rose,48,Female,165/91,122,Penicillin,Cold,"headache, dizziness",Salbutamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+314,Jessica Powell,58,Male,133/88,89,Peanuts,"Asthma, Fever","breathlessness, cough","Metformin, Sumatriptan",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+315,Olivia Thomas,78,Male,113/79,118,Penicillin,Cold,"body pain, fatigue","Salbutamol, Furosemide",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+316,Keith Davis,28,Female,129/84,117,Seafood,"Kidney Disease, Hypertension","high temperature, fatigue",Metformin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+317,Cynthia Nixon,70,Male,158/78,96,None,Hypertension,"fatigue, swelling","Salbutamol, Sumatriptan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+318,Mr. Tyler Rodriguez,51,Female,143/76,129,Peanuts,Migraine,"nausea, fatigue","Clopidogrel, Ibuprofen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+319,Jean Myers,45,Male,151/100,99,None,"Fever, Hypertension","headache, dizziness",Metformin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+320,Stacey Collins,42,Male,132/80,192,Seafood,Kidney Disease,"high sugar, fatigue","Paracetamol, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+321,Tina Martin,57,Female,155/104,103,Peanuts,Heart Disease,"shortness of breath, fatigue","Paracetamol, Salbutamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+322,Nicole Watson,65,Male,127/98,99,Peanuts,Cold,"fatigue, swelling","Atorvastatin, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+323,Shawn Stewart DDS,28,Female,140/90,140,None,"Kidney Disease, Diabetes","fatigue, blurred vision",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+324,Casey Bright,64,Female,139/82,218,Peanuts,Asthma,"high sugar, blurred vision","Sumatriptan, Metformin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+325,Brenda Pearson,30,Male,138/81,113,Penicillin,Diabetes,"fatigue, high temperature","Loratadine, Atorvastatin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+326,Mr. Michael Lee II,35,Female,157/97,110,Seafood,Hypertension,"chest pain, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+327,Mr. Shawn Mercer,40,Female,144/99,102,Seafood,Fever,"shortness of breath, fatigue",Lisinopril,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+328,Michael Kelly,50,Female,156/88,117,Pollen,"Kidney Disease, Fever","dizziness, chest pain","Loratadine, Furosemide",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+329,James Sparks,75,Male,135/73,96,None,Cold,"severe headache, nausea","Lisinopril, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+330,Dr. Zachary Gonzalez,33,Female,105/77,123,Seafood,Asthma,"fatigue, body pain","Atorvastatin, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+331,Julia Gray,29,Male,131/88,92,Dust,"Cold, Hypertension","high temperature, fatigue",Loratadine,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+332,Billy Gregory,67,Male,108/72,123,Seafood,Diabetes,"cough, wheezing","Clopidogrel, Ibuprofen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+333,Heidi Russell,49,Male,132/73,105,Peanuts,Kidney Disease,"high temperature, fatigue","Insulin, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+334,Nicole Wang,47,Male,127/86,109,Dust,Cold,"wheezing, breathlessness","Losartan, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+335,Ronald Stokes,53,Female,112/78,110,Dust,"Asthma, Cold","cough, wheezing","Cetirizine, Naproxen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+336,George York,72,Female,147/94,101,Pollen,Hypertension,"fatigue, chest pain","Loratadine, Paracetamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+337,Lori Brock,27,Male,130/90,80,Seafood,"Asthma, Kidney Disease","cough, sneezing","Naproxen, Salbutamol",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+338,Tina Scott,43,Male,132/75,147,Seafood,"Hypertension, Cold","frequent urination, blurred vision","Paracetamol, Budesonide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+339,Sarah Murphy,40,Male,126/68,102,Peanuts,Fever,"fatigue, high temperature","Atorvastatin, Naproxen",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+340,Ian Jones,74,Male,129/89,98,None,Heart Disease,"nausea, severe headache","Furosemide, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+341,David Dodson,39,Male,115/80,121,None,"Fever, Cold","wheezing, cough","Sumatriptan, Cetirizine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+342,Cheryl Smith,64,Male,126/78,124,Pollen,Asthma,"cough, breathlessness","Losartan, Insulin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+343,Alec Little,19,Female,126/72,153,Dust,Hypertension,"high sugar, blurred vision","Ibuprofen, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+344,Parker Roberts II,58,Male,113/86,90,Dust,"Heart Disease, Kidney Disease","severe headache, light sensitivity","Sumatriptan, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+345,Brian Mueller,26,Male,142/89,109,Dust,"Heart Disease, Cold","light sensitivity, nausea",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+346,Ashley Mcbride,34,Male,139/75,85,Pollen,"Fever, Cold","nausea, swelling",Naproxen,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+347,Crystal Jacobs,18,Female,118/84,94,Peanuts,Kidney Disease,"high temperature, body pain","Furosemide, Losartan",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+348,Rebecca Adkins,71,Female,134/83,90,Penicillin,"Fever, Heart Disease","fatigue, swelling","Lisinopril, Losartan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+349,David Vaughan,36,Male,125/84,119,Seafood,"Cold, Asthma","wheezing, cough",Salbutamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+350,Dr. Katherine Hayes DDS,29,Male,119/78,156,Penicillin,Cold,"blurred vision, high sugar",Salbutamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+351,Kimberly Wilson,44,Female,161/91,119,Pollen,"Hypertension, Kidney Disease","fatigue, chest pain",Insulin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+352,Shane Brown,52,Female,146/91,101,None,Cold,"dizziness, headache","Sumatriptan, Losartan",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+353,Traci Martin,47,Male,133/86,93,Peanuts,"Heart Disease, Hypertension","sneezing, runny nose",Losartan,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+354,Francis Hodges,30,Female,103/86,93,Pollen,"Heart Disease, Diabetes","high temperature, fatigue",Paracetamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+355,Philip Guzman,18,Male,130/87,118,Seafood,Cold,"cough, sneezing",Naproxen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+356,David Jones,77,Male,133/91,131,Peanuts,Migraine,"chest pain, fatigue",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+357,Alexander Hayes,69,Female,142/80,134,Seafood,Fever,"shortness of breath, fatigue",Naproxen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+358,Cynthia Mcconnell,52,Female,112/83,91,Pollen,"Migraine, Asthma","fatigue, body pain",Amlodipine,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+359,Riley Maldonado,70,Female,134/76,109,Peanuts,Diabetes,"high temperature, body pain","Loratadine, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+360,Laura Meyer,30,Female,155/79,124,Penicillin,"Heart Disease, Diabetes","fatigue, nausea",Amlodipine,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+361,John Green,73,Male,111/73,111,Seafood,Kidney Disease,"breathlessness, cough","Paracetamol, Metformin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+362,Savannah Stevens,18,Male,166/87,114,Seafood,"Kidney Disease, Migraine","chest pain, headache","Insulin, Lisinopril",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+363,Amber Rodriguez,64,Male,136/79,149,Seafood,Hypertension,"frequent urination, high sugar",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+364,Kimberly Reynolds,54,Male,135/88,115,Seafood,"Migraine, Heart Disease","sneezing, cough","Losartan, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+365,Barbara Alvarado,50,Female,130/92,123,Peanuts,"Heart Disease, Kidney Disease","fatigue, nausea","Lisinopril, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+366,David Rivers,56,Male,166/97,103,Dust,"Migraine, Cold","shortness of breath, fatigue","Metformin, Clopidogrel",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+367,Stacey Mendoza,51,Male,138/79,140,Seafood,Heart Disease,"high sugar, fatigue",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+368,Kyle Bush,24,Male,119/81,89,Seafood,"Cold, Hypertension","breathlessness, wheezing","Ibuprofen, Insulin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+369,Wendy Howell,64,Male,120/90,110,None,Fever,"cough, sneezing",Furosemide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+370,John Davis Jr.,40,Female,156/83,145,Penicillin,"Diabetes, Asthma","chest pain, fatigue",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+371,Brenda Michael,50,Male,139/81,133,Penicillin,"Hypertension, Migraine","fatigue, shortness of breath","Ibuprofen, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+372,Anthony Bryant,23,Female,166/103,93,Seafood,"Hypertension, Cold","fatigue, shortness of breath","Salbutamol, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+373,Stephanie Perkins,49,Female,112/82,119,Seafood,Hypertension,"runny nose, cough","Lisinopril, Budesonide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+374,John Beltran,25,Female,162/96,107,Pollen,"Diabetes, Kidney Disease","headache, dizziness","Budesonide, Naproxen",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+375,Jennifer Vasquez,46,Male,134/77,92,Seafood,Hypertension,"cough, wheezing",Insulin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+376,James Morgan,73,Female,105/80,124,Penicillin,"Migraine, Diabetes","breathlessness, wheezing","Cetirizine, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+377,Connie Kelly,53,Female,139/88,89,Peanuts,"Diabetes, Asthma","fatigue, high temperature",Insulin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+378,Benjamin Flores,21,Female,100/67,104,Seafood,"Hypertension, Diabetes","fatigue, body pain","Furosemide, Losartan",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+379,David Kelly,75,Female,166/104,119,Seafood,Migraine,"headache, chest pain",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+380,Shari Hardin,39,Female,125/88,90,None,"Heart Disease, Migraine","high temperature, body pain","Loratadine, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+381,Jeffery Keith,74,Female,101/82,97,Seafood,"Kidney Disease, Heart Disease","high temperature, fatigue",Amlodipine,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+382,Juan Roberts,44,Male,109/78,99,Dust,"Asthma, Hypertension","runny nose, sneezing",Cetirizine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+383,Corey Scott,45,Male,125/88,90,Dust,Asthma,"wheezing, breathlessness","Salbutamol, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+384,Angela Potter,79,Female,139/89,132,Seafood,Cold,"nausea, fatigue",Salbutamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+385,Elizabeth Smith,56,Male,138/72,94,Pollen,"Hypertension, Heart Disease","fatigue, high temperature","Salbutamol, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+386,Michael Harris,29,Female,161/95,98,Pollen,Diabetes,"chest pain, fatigue","Metformin, Sumatriptan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+387,Ryan Miller,65,Male,113/67,91,Peanuts,"Migraine, Hypertension","sneezing, runny nose","Furosemide, Naproxen",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+388,Amber Serrano,64,Female,145/94,132,Seafood,Migraine,"nausea, swelling","Insulin, Sumatriptan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+389,Donna Alvarez,80,Male,155/87,118,Dust,Fever,"nausea, swelling","Furosemide, Sumatriptan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+390,Anthony Gross,28,Female,123/89,83,Peanuts,"Migraine, Diabetes","light sensitivity, severe headache",Budesonide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+391,Donna Warren,43,Female,115/84,81,Peanuts,Migraine,"breathlessness, wheezing",Paracetamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+392,Michelle Williams,63,Male,107/73,125,None,Kidney Disease,"wheezing, cough",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+393,Elizabeth Harris,76,Female,123/74,90,Pollen,Kidney Disease,"breathlessness, cough","Ibuprofen, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+394,Shane King,58,Male,107/69,92,Seafood,Migraine,"high temperature, body pain","Naproxen, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+395,Sheryl Wood,33,Male,142/91,110,Dust,"Hypertension, Fever","nausea, light sensitivity",Loratadine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+396,Gregory Moore,21,Male,109/66,102,Penicillin,Fever,"cough, runny nose","Amlodipine, Metformin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+397,Samuel Christensen,61,Female,124/89,116,Pollen,"Heart Disease, Diabetes","cough, breathlessness",Ibuprofen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+398,Kristen Morrow,66,Female,170/87,103,Penicillin,Fever,"dizziness, headache","Lisinopril, Paracetamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+399,Steven Chen,24,Male,125/89,240,Seafood,"Fever, Migraine","high sugar, frequent urination","Salbutamol, Ibuprofen",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+400,Dave Roberts,49,Male,144/77,98,Seafood,Diabetes,"severe headache, light sensitivity","Losartan, Clopidogrel",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+401,Roy Lewis,44,Male,141/86,120,Dust,Cold,"nausea, swelling","Paracetamol, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+402,Jennifer Garner,67,Male,137/101,111,Peanuts,Asthma,"shortness of breath, fatigue",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+403,Sandra Hendricks,76,Female,107/90,88,Seafood,"Heart Disease, Cold","nausea, severe headache","Insulin, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+404,Nathan Casey,53,Male,143/98,133,Peanuts,Asthma,"shortness of breath, fatigue","Metformin, Budesonide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+405,Carlos Jones,54,Female,110/89,87,Dust,Fever,"wheezing, cough","Amlodipine, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+406,Lindsay Wood,71,Female,118/86,99,None,"Diabetes, Kidney Disease","severe headache, light sensitivity",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+407,Robert Andersen,75,Male,117/80,110,None,"Asthma, Kidney Disease","light sensitivity, nausea",Salbutamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+408,Sheryl Bowman,42,Male,105/79,82,Dust,"Migraine, Diabetes","light sensitivity, severe headache",Ibuprofen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+409,Shannon Henderson,38,Male,112/74,97,None,"Hypertension, Asthma","runny nose, sneezing",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+410,Kevin Mendez,31,Female,170/95,102,Dust,Asthma,"headache, dizziness",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+411,Adam Palmer,21,Male,106/85,83,Seafood,Hypertension,"severe headache, nausea","Furosemide, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+412,Taylor Hunt,57,Female,124/80,92,Peanuts,"Asthma, Diabetes","light sensitivity, severe headache","Losartan, Loratadine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+413,Christine Thomas,48,Male,119/74,119,None,"Asthma, Heart Disease","nausea, light sensitivity","Atorvastatin, Loratadine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+414,Karla Ross,25,Female,135/84,90,None,Hypertension,"nausea, light sensitivity","Losartan, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+415,Robert Cole,52,Female,125/83,106,Peanuts,Migraine,"high temperature, fatigue","Amlodipine, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+416,Charles Cook,68,Female,156/100,106,Dust,Hypertension,"nausea, swelling","Losartan, Ibuprofen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+417,Alyssa Baker,70,Female,146/94,110,Penicillin,"Heart Disease, Cold","headache, chest pain",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+418,David Gray,66,Male,131/74,197,Peanuts,"Cold, Hypertension","high sugar, frequent urination","Ibuprofen, Naproxen",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+419,William Collins,76,Female,122/67,117,None,Fever,"high temperature, body pain",Clopidogrel,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+420,Lance Carey,63,Female,113/79,250,Seafood,"Kidney Disease, Heart Disease","fatigue, blurred vision","Furosemide, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+421,Tabitha Jones DDS,60,Male,130/69,92,Peanuts,"Kidney Disease, Hypertension","runny nose, sneezing","Salbutamol, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+422,Robert Mcdonald,27,Female,131/83,157,Seafood,"Migraine, Kidney Disease","fatigue, blurred vision","Budesonide, Loratadine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+423,Nicole Lee,42,Female,119/75,107,Dust,"Cold, Heart Disease","light sensitivity, severe headache","Lisinopril, Sumatriptan",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+424,Ruben Wang,80,Male,128/85,230,Seafood,"Hypertension, Migraine","high sugar, fatigue","Sumatriptan, Paracetamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+425,Christopher Steele,33,Female,139/105,119,Pollen,Heart Disease,"chest pain, dizziness",Naproxen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+426,Meagan Mata,44,Female,148/89,100,Dust,"Diabetes, Heart Disease","chest pain, shortness of breath","Budesonide, Ibuprofen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+427,Brad Watkins,36,Female,112/74,204,Peanuts,"Asthma, Fever","fatigue, frequent urination","Paracetamol, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+428,Aaron Duncan,56,Male,144/99,108,None,Migraine,"headache, dizziness",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+429,Justin Miller,56,Male,131/85,106,None,"Asthma, Hypertension","wheezing, breathlessness","Insulin, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+430,Robert Jones,28,Female,122/85,178,Pollen,Kidney Disease,"blurred vision, high sugar","Naproxen, Salbutamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+431,Ashley Dillon,36,Female,122/80,207,None,"Kidney Disease, Fever","fatigue, blurred vision","Atorvastatin, Salbutamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+432,Angela Johnson,59,Female,129/89,123,Peanuts,Heart Disease,"fatigue, high temperature",Atorvastatin,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+433,Harry Trujillo,71,Male,110/83,152,Seafood,"Heart Disease, Hypertension","fatigue, high sugar","Paracetamol, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+434,Mark Keller,21,Male,142/88,90,Peanuts,"Asthma, Diabetes","chest pain, headache",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+435,Angelica Munoz,58,Female,152/98,129,Pollen,"Asthma, Kidney Disease","chest pain, dizziness",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+436,Mr. Brandon Jones,39,Male,136/83,96,Penicillin,"Cold, Fever","fatigue, swelling","Budesonide, Atorvastatin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+437,Jeremy Weber,31,Male,148/97,101,Penicillin,Hypertension,"swelling, nausea","Sumatriptan, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+438,Brandy Gonzales,77,Male,131/82,174,Pollen,"Kidney Disease, Fever","frequent urination, high sugar",Naproxen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+439,Patrick Smith,52,Male,135/97,129,Peanuts,"Heart Disease, Migraine","dizziness, headache","Furosemide, Metformin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+440,Tina Reilly,41,Female,140/99,103,None,Diabetes,"chest pain, headache","Cetirizine, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+441,Randall Allen,49,Male,170/94,137,None,Cold,"chest pain, fatigue",Loratadine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+442,Heidi Vance,49,Female,101/66,101,Peanuts,Kidney Disease,"high temperature, body pain",Cetirizine,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+443,Christina Bartlett,78,Male,142/77,84,Penicillin,"Diabetes, Cold","severe headache, light sensitivity",Loratadine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+444,Kristine Harris,29,Male,138/79,245,Seafood,Hypertension,"fatigue, frequent urination",Losartan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+445,Tracy Williams,22,Male,127/75,105,Dust,Heart Disease,"sneezing, cough",Insulin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+446,Anthony Miller,25,Female,144/98,95,Peanuts,Migraine,"chest pain, dizziness",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+447,Autumn Figueroa,67,Male,121/90,90,Pollen,Hypertension,"swelling, nausea","Lisinopril, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+448,Lisa Foster,31,Male,125/78,113,Seafood,Asthma,"wheezing, cough",Budesonide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+449,Rhonda Edwards,58,Female,157/98,85,Seafood,Hypertension,"chest pain, headache",Clopidogrel,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+450,Monica Johnson,47,Male,117/66,92,Dust,"Migraine, Hypertension","cough, runny nose",Insulin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+451,William Hernandez,31,Female,116/75,119,Pollen,Diabetes,"body pain, high temperature",Budesonide,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+452,Jamie Tyler,22,Male,163/103,122,None,Heart Disease,"dizziness, chest pain",Losartan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+453,Riley Harris,65,Female,112/77,94,Pollen,"Diabetes, Cold","cough, sneezing",Cetirizine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+454,Shari Edwards,42,Female,109/84,92,None,"Cold, Asthma","cough, wheezing",Insulin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+455,Derek Lopez,26,Male,129/79,106,Seafood,Fever,"high temperature, body pain",Budesonide,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+456,Dr. Casey Murphy,23,Female,133/80,93,Seafood,"Fever, Diabetes","runny nose, sneezing","Loratadine, Losartan",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+457,Mckenzie Pierce,75,Male,100/78,82,None,Kidney Disease,"cough, sneezing","Naproxen, Furosemide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+458,Kenneth Watson,49,Male,110/87,80,None,Asthma,"light sensitivity, nausea","Ibuprofen, Losartan",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+459,Bernard Gray,48,Female,115/84,249,Peanuts,"Asthma, Kidney Disease","fatigue, frequent urination","Budesonide, Furosemide",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+460,Felicia Lucas,63,Male,145/72,104,Seafood,Fever,"light sensitivity, nausea","Paracetamol, Clopidogrel",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+461,Trevor Young,68,Male,121/88,83,Dust,Hypertension,"runny nose, sneezing","Clopidogrel, Loratadine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+462,Kimberly King,29,Male,165/102,139,Seafood,"Cold, Fever","chest pain, fatigue",Naproxen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+463,Troy Simmons,66,Male,120/76,97,Seafood,"Diabetes, Migraine","runny nose, sneezing","Clopidogrel, Loratadine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+464,Cynthia Evans,48,Female,163/104,108,Penicillin,Migraine,"chest pain, headache",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+465,Debra Gonzales,79,Male,106/70,97,Peanuts,"Asthma, Kidney Disease","high temperature, fatigue",Metformin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+466,Sarah Morrison,48,Female,118/84,121,Seafood,Hypertension,"breathlessness, wheezing",Loratadine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+467,William Stewart,44,Female,150/95,127,Dust,"Fever, Migraine","fatigue, shortness of breath",Ibuprofen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+468,Rachel Martin,48,Female,118/89,83,Penicillin,"Migraine, Hypertension","cough, sneezing",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+469,William Cervantes,28,Male,108/71,100,None,"Fever, Asthma","cough, breathlessness",Cetirizine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+470,Ashley Haney,80,Female,139/91,118,Pollen,"Hypertension, Diabetes","fatigue, chest pain","Naproxen, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+471,Shelby Russo,27,Male,164/96,111,None,"Fever, Kidney Disease","fatigue, shortness of breath",Sumatriptan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+472,Diana Chan,75,Male,113/91,115,Dust,Kidney Disease,"severe headache, nausea",Sumatriptan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+473,Lisa Summers,56,Male,128/86,168,Pollen,Hypertension,"high sugar, fatigue","Amlodipine, Paracetamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+474,Kimberly Martin,56,Male,153/92,99,Dust,"Kidney Disease, Asthma","fatigue, shortness of breath",Ibuprofen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+475,Michael Austin,73,Male,118/93,108,Seafood,"Fever, Hypertension","light sensitivity, nausea","Lisinopril, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+476,John Baxter,27,Male,154/100,118,Pollen,"Hypertension, Diabetes","dizziness, headache","Paracetamol, Cetirizine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+477,Howard Ryan,30,Male,131/82,98,Penicillin,Fever,"cough, wheezing","Naproxen, Paracetamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+478,Clifford Perkins,68,Male,114/78,178,Dust,"Kidney Disease, Hypertension","blurred vision, fatigue","Loratadine, Metformin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+479,Joshua Lewis,80,Male,143/93,103,Seafood,"Fever, Heart Disease","light sensitivity, nausea","Losartan, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+480,Ryan Marquez,72,Female,115/88,147,Pollen,"Asthma, Migraine","frequent urination, blurred vision",Insulin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+481,Laurie Hines,21,Female,148/96,130,Peanuts,Hypertension,"chest pain, fatigue",Atorvastatin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+482,James Mills,35,Female,106/82,117,Dust,Asthma,"body pain, high temperature","Clopidogrel, Furosemide",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+483,Roberto Rice,24,Male,109/86,94,Pollen,"Migraine, Diabetes","breathlessness, cough",Salbutamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+484,Frank Marquez,37,Female,138/94,146,Peanuts,Fever,"fatigue, shortness of breath",Losartan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+485,Katherine Robles,62,Male,114/74,93,None,"Hypertension, Diabetes","breathlessness, cough",Naproxen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+486,Bradley Barnes,24,Male,132/83,83,None,"Diabetes, Migraine","sneezing, cough","Metformin, Furosemide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+487,Wayne Wong,55,Male,111/86,102,Peanuts,Fever,"cough, runny nose","Clopidogrel, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+488,Annette Ortega,50,Male,106/83,80,None,Fever,"runny nose, cough",Metformin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+489,Clifford Garcia,76,Female,123/87,117,Penicillin,Asthma,"cough, sneezing","Furosemide, Cetirizine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+490,Morgan Stewart,25,Female,127/89,92,None,"Heart Disease, Migraine","nausea, swelling","Insulin, Naproxen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+491,Todd Tran,36,Female,158/98,104,Pollen,Kidney Disease,"nausea, fatigue","Lisinopril, Losartan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+492,Steven Lloyd,29,Male,161/101,96,Seafood,Hypertension,"shortness of breath, fatigue",Furosemide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+493,Christopher Boyer,65,Male,139/96,97,Seafood,"Hypertension, Migraine","dizziness, headache","Naproxen, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+494,Kathleen Hernandez,66,Female,122/80,122,Pollen,"Fever, Hypertension","fatigue, body pain","Losartan, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+495,Stacey Ramirez,58,Male,101/68,83,Seafood,Asthma,"cough, sneezing","Atorvastatin, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+496,Jimmy Cummings DDS,66,Male,168/100,114,Seafood,"Migraine, Fever","headache, dizziness","Atorvastatin, Furosemide",Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+497,Jennifer Kirby,78,Male,123/73,189,Peanuts,"Migraine, Cold","blurred vision, frequent urination",Insulin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+498,Misty Chang,74,Male,131/78,88,Penicillin,"Hypertension, Fever","body pain, fatigue","Naproxen, Loratadine",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+499,Dakota Salas,43,Female,125/88,188,Dust,"Diabetes, Migraine","high sugar, frequent urination",Salbutamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+500,Tracey Jefferson,66,Female,122/73,194,Dust,"Heart Disease, Diabetes","high sugar, frequent urination",Loratadine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+501,Phillip Cooper,76,Male,154/88,106,Pollen,"Diabetes, Cold","headache, chest pain","Lisinopril, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+502,Jennifer Davis,38,Female,128/82,181,Peanuts,Cold,"fatigue, frequent urination","Naproxen, Paracetamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+503,Jordan Rodriguez,28,Female,153/93,102,Pollen,Fever,"shortness of breath, chest pain","Insulin, Salbutamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+504,Edward Jenkins,57,Male,106/83,101,Seafood,"Kidney Disease, Hypertension","sneezing, cough","Amlodipine, Atorvastatin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+505,Tammy Stephens,45,Female,112/78,105,Peanuts,Diabetes,"body pain, fatigue",Naproxen,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+506,Jacob Martin,35,Female,141/93,120,Dust,"Migraine, Hypertension","severe headache, light sensitivity",Salbutamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+507,Ernest Warren,44,Female,124/95,98,Penicillin,"Asthma, Migraine","fatigue, nausea",Furosemide,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+508,Christopher Parker,19,Male,119/79,111,Dust,"Diabetes, Hypertension","runny nose, sneezing",Paracetamol,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+509,Savannah Lane,60,Male,102/88,111,Dust,Heart Disease,"high temperature, fatigue","Amlodipine, Sumatriptan",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+510,Jason Ortega,43,Male,150/88,121,Dust,"Migraine, Diabetes","chest pain, headache",Losartan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+511,Jamie Salazar,71,Female,145/93,103,Seafood,Cold,"chest pain, fatigue","Sumatriptan, Cetirizine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+512,Karen Williams,49,Female,132/73,180,Dust,Fever,"blurred vision, frequent urination",Clopidogrel,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+513,Jose May,19,Male,103/87,122,Pollen,"Fever, Heart Disease","high temperature, body pain","Losartan, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+514,Andrew Chambers,18,Female,136/84,90,Peanuts,Asthma,"swelling, fatigue","Atorvastatin, Sumatriptan",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+515,Antonio Perez,68,Male,137/77,137,Dust,"Heart Disease, Migraine","fatigue, nausea","Losartan, Lisinopril",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+516,Kaitlin Richardson,40,Female,170/95,114,Peanuts,Asthma,"chest pain, headache","Salbutamol, Metformin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+517,Jeremiah Long,38,Male,107/70,95,Seafood,"Heart Disease, Cold","fatigue, high temperature","Salbutamol, Naproxen",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+518,David Martinez,69,Female,142/82,116,Seafood,"Kidney Disease, Migraine","shortness of breath, chest pain",Metformin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+519,Karen Robinson,76,Male,129/71,96,Dust,Kidney Disease,"runny nose, cough","Paracetamol, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+520,Laura Frost,78,Male,105/86,107,Dust,Cold,"wheezing, cough",Cetirizine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+521,Kenneth Christian,65,Female,124/69,107,None,"Cold, Migraine","high temperature, fatigue",Lisinopril,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+522,John Norman,80,Female,115/84,108,Peanuts,"Hypertension, Diabetes","high temperature, body pain","Salbutamol, Lisinopril",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+523,Cindy Moore,61,Male,144/97,112,Penicillin,Hypertension,"nausea, fatigue",Insulin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+524,Adam Ayala,76,Female,143/91,118,Penicillin,Fever,"light sensitivity, severe headache","Ibuprofen, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+525,Kim Riley,55,Male,118/75,204,Dust,"Asthma, Diabetes","blurred vision, frequent urination","Lisinopril, Amlodipine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+526,Leslie Cline,80,Male,125/78,235,Dust,"Fever, Migraine","high sugar, frequent urination","Atorvastatin, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+527,Katelyn Adkins,66,Male,140/91,120,Pollen,Asthma,"nausea, severe headache",Loratadine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+528,Richard Leblanc,28,Female,127/68,111,Penicillin,"Migraine, Cold","high temperature, body pain","Losartan, Lisinopril",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+529,Brian Guzman,40,Male,148/94,96,Penicillin,Diabetes,"headache, dizziness",Lisinopril,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+530,Patricia Zuniga,61,Male,126/70,98,None,"Heart Disease, Fever","light sensitivity, severe headache",Atorvastatin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+531,Tara Bond,71,Female,134/90,97,Seafood,"Diabetes, Heart Disease","light sensitivity, severe headache","Atorvastatin, Clopidogrel",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+532,Carolyn Sherman,31,Male,130/90,98,Penicillin,Kidney Disease,"wheezing, breathlessness",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+533,Jessica Morales,23,Male,133/80,109,Dust,Hypertension,"fatigue, nausea","Naproxen, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+534,Victoria Andrews,40,Male,131/81,112,Dust,"Kidney Disease, Cold","breathlessness, wheezing","Lisinopril, Insulin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+535,Sarah Gates,45,Female,107/71,112,None,Asthma,"wheezing, cough","Amlodipine, Salbutamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+536,Christopher Fields,37,Male,113/91,99,Seafood,"Diabetes, Fever","severe headache, nausea",Insulin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+537,Anita Clarke,44,Male,149/96,131,Peanuts,"Fever, Migraine","nausea, fatigue",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+538,Daniel Miller,29,Male,130/71,85,Penicillin,"Migraine, Kidney Disease","nausea, light sensitivity","Paracetamol, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+539,Matthew Walker,29,Male,116/86,86,Pollen,Kidney Disease,"sneezing, cough",Metformin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+540,Teresa Gould,62,Female,143/93,111,None,"Fever, Diabetes","nausea, light sensitivity",Salbutamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+541,Michael Griffin,62,Male,137/70,166,Pollen,Cold,"blurred vision, high sugar","Cetirizine, Insulin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+542,Justin Webb,48,Female,105/73,90,Pollen,"Migraine, Diabetes","breathlessness, wheezing","Loratadine, Losartan",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+543,Edward Leonard,39,Male,113/90,248,Peanuts,"Fever, Diabetes","blurred vision, frequent urination","Furosemide, Loratadine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+544,Karen Brandt,32,Male,138/70,107,Peanuts,Fever,"light sensitivity, nausea","Naproxen, Insulin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+545,Troy Morgan,46,Female,131/85,108,Peanuts,"Heart Disease, Cold","fatigue, chest pain",Loratadine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+546,David Smith,76,Female,138/89,136,Peanuts,"Heart Disease, Kidney Disease","fatigue, shortness of breath","Budesonide, Ibuprofen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+547,Amanda Flores,60,Female,143/90,97,None,Kidney Disease,"headache, dizziness","Ibuprofen, Losartan",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+548,Crystal Perez,40,Female,121/75,162,Pollen,"Kidney Disease, Diabetes","fatigue, blurred vision",Losartan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+549,Jeffrey Jennings,39,Female,102/89,115,None,Diabetes,"body pain, high temperature","Sumatriptan, Lisinopril",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+550,Dr. Nicole Velez,70,Male,167/88,95,Seafood,Heart Disease,"chest pain, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+551,Marc Smith,64,Male,114/90,103,Penicillin,Cold,"nausea, severe headache","Lisinopril, Furosemide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+552,Alan Thompson,39,Female,137/75,85,Seafood,"Heart Disease, Migraine","nausea, light sensitivity",Salbutamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+553,Tracy Morgan,68,Male,128/100,112,Seafood,"Heart Disease, Diabetes","fatigue, nausea","Salbutamol, Furosemide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+554,Sara Hanna,23,Female,155/97,95,Peanuts,"Diabetes, Heart Disease","dizziness, headache",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+555,Mark Stewart,44,Female,135/74,100,Seafood,"Asthma, Heart Disease","body pain, high temperature","Sumatriptan, Atorvastatin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+556,Elizabeth Williams,62,Female,130/94,92,Dust,Heart Disease,"nausea, severe headache","Salbutamol, Paracetamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+557,Brandi Morris,23,Female,133/75,120,Seafood,Fever,"cough, runny nose",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+558,Robert Chapman,64,Male,158/93,125,Peanuts,Diabetes,"chest pain, dizziness",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+559,Zachary Harmon,47,Female,117/88,212,Penicillin,"Fever, Heart Disease","frequent urination, blurred vision",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+560,Sarah Perry,38,Male,158/99,91,Pollen,"Hypertension, Diabetes","headache, dizziness",Lisinopril,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+561,Krista Ross DVM,46,Male,123/86,113,Pollen,"Migraine, Heart Disease","sneezing, runny nose","Sumatriptan, Clopidogrel",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+562,Tiffany Jones,70,Male,129/91,93,Peanuts,Hypertension,"fatigue, nausea",Sumatriptan,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+563,Kevin Thompson,78,Female,134/73,118,Dust,Heart Disease,"wheezing, breathlessness","Insulin, Paracetamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+564,Sean Goodwin,41,Female,118/80,81,Pollen,"Diabetes, Asthma","high temperature, fatigue","Cetirizine, Amlodipine",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+565,Jessica Morrison,25,Female,112/71,193,Seafood,"Migraine, Asthma","blurred vision, high sugar","Naproxen, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+566,Cassandra Rodriguez,66,Male,121/90,109,Pollen,Heart Disease,"wheezing, cough",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+567,Dorothy Welch,52,Male,158/103,107,Penicillin,Diabetes,"fatigue, chest pain","Losartan, Atorvastatin",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+568,Leah Hines,79,Male,134/85,204,Seafood,Diabetes,"fatigue, blurred vision","Cetirizine, Losartan",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+569,William Johnson,23,Female,130/88,82,Pollen,"Kidney Disease, Hypertension","nausea, severe headache","Metformin, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+570,Amber Mcclain,23,Male,106/82,90,Pollen,Fever,"body pain, high temperature",Salbutamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+571,Cynthia Jordan,21,Female,110/70,125,Dust,"Hypertension, Asthma","breathlessness, wheezing",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+572,Rachel Richard,78,Male,123/81,100,Pollen,"Kidney Disease, Diabetes","nausea, swelling","Insulin, Budesonide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+573,Jacob Allison,48,Male,161/105,99,Pollen,Cold,"headache, dizziness",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+574,Taylor Scott,72,Male,144/96,119,Seafood,"Migraine, Diabetes","headache, chest pain",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+575,Ashley Ho,59,Male,100/66,110,Peanuts,"Heart Disease, Kidney Disease","body pain, fatigue",Ibuprofen,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+576,Dana Hammond,37,Male,160/88,93,Peanuts,"Cold, Fever","chest pain, dizziness","Atorvastatin, Naproxen",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+577,Erika Bailey,35,Male,125/80,93,None,Asthma,"nausea, light sensitivity",Naproxen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+578,Austin Buck,44,Female,129/82,114,Pollen,Migraine,"breathlessness, cough",Clopidogrel,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+579,Jacob Rios,42,Male,130/83,119,Peanuts,"Diabetes, Hypertension","shortness of breath, chest pain",Paracetamol,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+580,Daniel Martin,30,Male,169/100,109,Peanuts,Migraine,"fatigue, chest pain","Insulin, Salbutamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+581,Melissa Mann,18,Male,125/68,97,Peanuts,Cold,"runny nose, sneezing",Amlodipine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+582,Robert Lowery,26,Female,149/101,102,Pollen,"Migraine, Diabetes","headache, chest pain","Insulin, Lisinopril",Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+583,Sean Russell,35,Male,153/89,116,None,Diabetes,"fatigue, swelling","Lisinopril, Paracetamol",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+584,Jennifer Patterson,30,Female,125/93,136,None,"Hypertension, Migraine","swelling, nausea",Budesonide,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+585,Rose Hodges,19,Female,162/85,122,Dust,"Cold, Diabetes","chest pain, dizziness","Loratadine, Budesonide",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+586,Dana Smith,78,Male,128/89,86,Peanuts,Hypertension,"runny nose, sneezing",Insulin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+587,Linda Nixon,68,Male,138/99,88,Pollen,Hypertension,"dizziness, chest pain",Insulin,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+588,Tony Gilbert,24,Female,134/94,135,Peanuts,"Kidney Disease, Cold","nausea, swelling","Losartan, Budesonide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+589,John Green,47,Female,128/76,153,Pollen,Cold,"fatigue, blurred vision",Paracetamol,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+590,Joshua Dunn,29,Male,113/95,82,Penicillin,"Kidney Disease, Fever","severe headache, light sensitivity","Ibuprofen, Naproxen",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+591,Amanda Hamilton,48,Female,124/80,98,Penicillin,Diabetes,"wheezing, breathlessness",Insulin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+592,Scott Hernandez,58,Male,104/75,92,None,"Heart Disease, Kidney Disease","runny nose, sneezing","Ibuprofen, Cetirizine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+593,Samuel Barrera,74,Male,136/77,80,Dust,Migraine,"light sensitivity, severe headache",Loratadine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+594,Sherry Murphy,31,Female,131/75,108,Penicillin,"Diabetes, Fever","swelling, nausea",Salbutamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+595,Stephanie Williams,20,Male,142/86,108,Penicillin,"Asthma, Migraine","chest pain, fatigue",Budesonide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+596,Robert Gates,76,Male,101/86,88,Peanuts,"Cold, Asthma","body pain, high temperature","Loratadine, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+597,Joseph Freeman,78,Female,133/72,87,Peanuts,Cold,"breathlessness, cough","Clopidogrel, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+598,Brandy Weiss,76,Male,112/82,98,Seafood,Diabetes,"cough, sneezing","Salbutamol, Lisinopril",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+599,Jane Torres,31,Male,135/95,119,Seafood,"Heart Disease, Cold","severe headache, light sensitivity","Budesonide, Naproxen",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+600,Linda Gill,63,Female,135/78,117,Pollen,Cold,"nausea, severe headache",Sumatriptan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+601,Becky Lopez,37,Female,124/83,90,Dust,Asthma,"sneezing, runny nose",Ibuprofen,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+602,Jessica Martinez,55,Male,129/81,119,Dust,"Migraine, Cold","sneezing, runny nose","Clopidogrel, Furosemide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+603,Eric Pruitt,19,Male,148/82,101,None,"Hypertension, Asthma","nausea, swelling",Paracetamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+604,William Watkins,22,Female,137/102,97,Penicillin,"Fever, Asthma","dizziness, headache","Cetirizine, Clopidogrel",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+605,Jennifer King,18,Female,118/76,105,Penicillin,"Asthma, Kidney Disease","body pain, high temperature","Loratadine, Losartan",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+606,Wanda Alvarado,32,Female,134/80,85,Dust,"Kidney Disease, Hypertension","nausea, severe headache","Sumatriptan, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+607,Elizabeth Middleton,54,Male,114/70,111,Seafood,"Cold, Migraine","cough, wheezing","Furosemide, Naproxen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+608,Joseph Jimenez,38,Male,136/90,82,Pollen,"Kidney Disease, Cold","high temperature, fatigue",Furosemide,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+609,Holly Mcguire,48,Male,121/83,108,Peanuts,Asthma,"runny nose, sneezing",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+610,Holly Hall,19,Male,117/72,104,Seafood,Fever,"nausea, severe headache",Sumatriptan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+611,Lucas Gonzalez,28,Female,137/83,190,Penicillin,Kidney Disease,"frequent urination, fatigue","Amlodipine, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+612,Jeremy Gallegos,73,Male,114/83,125,None,Fever,"cough, wheezing",Sumatriptan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+613,Krystal Tyler,46,Male,131/82,118,Pollen,"Migraine, Cold","breathlessness, wheezing",Amlodipine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+614,Nicholas Mccormick,62,Female,155/99,142,Penicillin,Asthma,"chest pain, shortness of breath","Sumatriptan, Cetirizine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+615,Nathan Sanchez,43,Male,150/90,102,Dust,Cold,"chest pain, dizziness","Lisinopril, Furosemide",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+616,Dominique Harris,66,Male,167/95,111,Peanuts,"Cold, Fever","dizziness, headache",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+617,John Howell,42,Female,130/76,105,Pollen,"Hypertension, Heart Disease","severe headache, light sensitivity",Atorvastatin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+618,Kevin Garrett,47,Male,110/87,95,Seafood,Migraine,"light sensitivity, nausea","Budesonide, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+619,Ashley Meyers,29,Female,142/102,110,Penicillin,Fever,"headache, chest pain",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+620,Bryan Orr,75,Male,124/71,247,Penicillin,"Migraine, Diabetes","fatigue, frequent urination",Insulin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+621,Robert Martinez,41,Male,112/67,81,None,Heart Disease,"sneezing, cough",Amlodipine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+622,Timothy Rodriguez,64,Male,106/83,112,None,"Cold, Fever","breathlessness, wheezing",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+623,Ashley Sanders,31,Male,122/75,91,Peanuts,"Diabetes, Cold","cough, sneezing",Sumatriptan,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+624,Kevin Levine,59,Female,102/67,93,Seafood,"Hypertension, Heart Disease","body pain, fatigue",Paracetamol,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+625,Tyler Phillips,80,Female,138/90,101,Peanuts,"Hypertension, Asthma","fatigue, shortness of breath",Sumatriptan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+626,Jennifer Wilson PhD,50,Male,114/65,119,Dust,Kidney Disease,"cough, sneezing",Amlodipine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+627,Samuel Garcia,36,Male,114/82,93,None,Migraine,"light sensitivity, severe headache","Salbutamol, Naproxen",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+628,David Williams,59,Female,121/82,139,Peanuts,"Cold, Hypertension","nausea, fatigue",Loratadine,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+629,Thomas Shaffer,56,Female,133/75,91,Penicillin,Migraine,"sneezing, cough",Cetirizine,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+630,Jessica Dougherty,26,Male,111/83,115,Penicillin,Kidney Disease,"cough, runny nose","Ibuprofen, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+631,Andrew Horn II,29,Male,139/84,121,Pollen,"Migraine, Diabetes","fatigue, swelling","Furosemide, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+632,Dr. Tracy Black,50,Female,129/100,115,Dust,"Hypertension, Kidney Disease","swelling, fatigue","Salbutamol, Paracetamol",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+633,Heather Baldwin,47,Female,149/84,109,Penicillin,Heart Disease,"nausea, fatigue",Naproxen,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+634,Elizabeth Clark,18,Female,125/82,193,None,"Kidney Disease, Cold","blurred vision, high sugar","Amlodipine, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+635,Judith Buck,77,Male,132/99,112,Peanuts,"Heart Disease, Migraine","fatigue, nausea",Furosemide,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+636,Tonya Garcia,33,Female,102/76,120,Seafood,Fever,"runny nose, cough","Salbutamol, Naproxen",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+637,Taylor Gonzalez,18,Male,129/72,121,Pollen,"Hypertension, Fever","cough, wheezing",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+638,Lacey Davis,62,Female,132/82,122,Peanuts,"Hypertension, Diabetes","body pain, fatigue","Salbutamol, Naproxen",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+639,Danny Rodriguez,62,Female,120/80,137,Pollen,Hypertension,"fatigue, swelling","Lisinopril, Atorvastatin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+640,Bryan Arnold,29,Female,110/74,92,Peanuts,Migraine,"wheezing, breathlessness",Budesonide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+641,Dillon Erickson,69,Male,113/83,108,None,Hypertension,"cough, breathlessness","Amlodipine, Cetirizine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+642,Alan Klein,19,Male,160/95,133,Seafood,Fever,"chest pain, fatigue",Insulin,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+643,Luis Floyd,42,Female,139/85,200,Dust,"Heart Disease, Asthma","high sugar, blurred vision","Atorvastatin, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+644,Tyler Ramirez,42,Male,142/85,136,Seafood,"Kidney Disease, Heart Disease","swelling, nausea",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+645,Linda Lopez,78,Male,123/79,119,None,"Cold, Diabetes","fatigue, body pain","Metformin, Atorvastatin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+646,Cindy Bishop,61,Female,144/99,121,Penicillin,"Kidney Disease, Cold","shortness of breath, chest pain",Furosemide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+647,Connie Jones,73,Male,109/85,85,Penicillin,Migraine,"wheezing, cough",Naproxen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+648,Jennifer Baker,31,Male,105/68,107,Peanuts,Heart Disease,"runny nose, cough","Paracetamol, Losartan",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+649,Mr. Danny Williams,78,Male,113/87,120,Pollen,Heart Disease,"light sensitivity, nausea",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+650,Ashley Proctor,59,Female,134/82,101,Penicillin,Hypertension,"swelling, fatigue",Atorvastatin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+651,Andrea Myers,54,Female,143/95,109,Dust,"Diabetes, Fever","chest pain, headache",Furosemide,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+652,Charles Porter,69,Male,163/101,128,Dust,Kidney Disease,"fatigue, chest pain",Sumatriptan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+653,Danielle Henry,49,Female,109/84,98,Peanuts,"Fever, Migraine","cough, runny nose",Paracetamol,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+654,Alexandra Taylor,58,Male,136/79,104,Penicillin,Cold,"severe headache, nausea",Insulin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+655,Courtney Martinez,64,Female,124/91,90,None,"Kidney Disease, Heart Disease","severe headache, nausea","Clopidogrel, Furosemide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+656,Sharon Young,36,Male,135/77,86,Peanuts,Fever,"high temperature, body pain","Budesonide, Ibuprofen",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+657,Tyrone Nelson,36,Male,118/76,92,Pollen,"Hypertension, Heart Disease","light sensitivity, severe headache",Furosemide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+658,Taylor Clements,77,Male,108/81,110,Penicillin,Heart Disease,"breathlessness, cough","Salbutamol, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+659,Brittany Hill,25,Male,122/85,178,Pollen,"Hypertension, Kidney Disease","frequent urination, high sugar","Furosemide, Salbutamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+660,Angela Hicks,18,Male,137/82,97,Pollen,Migraine,"shortness of breath, chest pain","Losartan, Furosemide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+661,Jose Morris,59,Female,124/88,88,Seafood,Asthma,"severe headache, nausea","Metformin, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+662,Steve Walker,22,Male,118/91,87,Penicillin,Migraine,"severe headache, light sensitivity","Losartan, Metformin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+663,Curtis Johnson,23,Female,132/71,85,Seafood,"Asthma, Cold","breathlessness, wheezing",Loratadine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+664,Rachael Lee,60,Female,108/83,111,Penicillin,"Cold, Heart Disease","fatigue, body pain",Insulin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+665,Edward Reynolds,37,Male,135/74,118,Pollen,"Fever, Hypertension","cough, breathlessness","Amlodipine, Paracetamol",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+666,Dale Lewis,43,Female,107/78,123,Peanuts,Hypertension,"wheezing, breathlessness","Cetirizine, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+667,John Green,44,Male,115/83,104,Pollen,Fever,"breathlessness, cough",Losartan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+668,Jessica Cervantes,39,Male,158/95,102,None,"Diabetes, Migraine","headache, chest pain","Loratadine, Cetirizine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+669,Donald Pope,51,Female,123/85,86,Pollen,"Fever, Migraine","cough, wheezing",Insulin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+670,Kathryn Rich,40,Female,120/88,88,Dust,Asthma,"wheezing, breathlessness",Furosemide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+671,Curtis Moon Jr.,76,Female,132/77,226,Pollen,"Asthma, Cold","blurred vision, high sugar","Sumatriptan, Paracetamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+672,Troy Mcknight MD,37,Male,119/78,100,None,Cold,"cough, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+673,Erik Church,53,Female,100/78,123,Penicillin,"Migraine, Fever","fatigue, high temperature",Furosemide,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+674,Hannah Thomas,63,Female,132/87,235,Dust,Migraine,"high sugar, fatigue",Loratadine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+675,Makayla Mendoza,50,Female,135/71,107,Penicillin,Heart Disease,"wheezing, cough",Atorvastatin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+676,Alec Wolf,36,Female,165/94,101,Pollen,"Cold, Asthma","headache, chest pain",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+677,Michael Parks,40,Male,129/84,182,None,Diabetes,"high sugar, frequent urination","Budesonide, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+678,Jesse Thomas,49,Male,125/91,117,Dust,Migraine,"swelling, fatigue",Salbutamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+679,Joseph Adams,48,Female,123/74,103,Pollen,"Hypertension, Cold","sneezing, cough","Budesonide, Amlodipine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+680,Jose Williams,40,Male,113/76,176,Pollen,"Kidney Disease, Heart Disease","fatigue, blurred vision","Insulin, Amlodipine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+681,Maria Shaw,25,Female,131/82,111,None,"Kidney Disease, Fever","fatigue, high temperature","Salbutamol, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+682,Theresa Dawson,27,Female,121/70,123,Dust,"Kidney Disease, Fever","breathlessness, cough",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+683,Rebecca Brown,23,Female,120/89,89,Penicillin,Fever,"light sensitivity, severe headache",Paracetamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+684,James Warren,30,Female,126/97,131,None,Asthma,"nausea, swelling",Losartan,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+685,Jessica Ray,30,Male,127/65,119,Penicillin,Kidney Disease,"high temperature, fatigue","Ibuprofen, Clopidogrel",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+686,Tammy Foster,39,Female,130/66,112,Penicillin,"Hypertension, Asthma","sneezing, cough","Paracetamol, Budesonide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+687,Amber Ritter,75,Male,141/81,90,Pollen,Fever,"chest pain, shortness of breath","Paracetamol, Sumatriptan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+688,Jasmine Chaney,34,Female,116/80,99,Peanuts,Asthma,"breathlessness, cough","Clopidogrel, Naproxen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+689,Cindy Ware,33,Female,143/98,114,Pollen,Hypertension,"chest pain, fatigue",Cetirizine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+690,Stephanie Watson,22,Female,154/100,97,Dust,Asthma,"chest pain, headache",Lisinopril,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+691,Mrs. Lisa Stanley,75,Female,158/100,135,Peanuts,Migraine,"chest pain, shortness of breath","Metformin, Amlodipine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+692,Russell Owen,36,Male,135/88,83,Seafood,"Migraine, Heart Disease","cough, breathlessness",Budesonide,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+693,Robin Mann,53,Female,145/94,102,Seafood,Asthma,"swelling, nausea",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+694,Miss Lindsey Cardenas,50,Female,124/77,98,Dust,Asthma,"light sensitivity, nausea",Insulin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+695,Heather Bailey,58,Male,140/78,157,Peanuts,Cold,"high sugar, fatigue",Metformin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+696,Jessica Smith,38,Male,165/88,136,Dust,"Heart Disease, Diabetes","chest pain, shortness of breath",Clopidogrel,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+697,Randall Hernandez,34,Male,122/88,86,Seafood,"Cold, Kidney Disease","cough, wheezing","Loratadine, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+698,Andrew Hopkins,27,Female,134/98,131,Penicillin,Migraine,"fatigue, nausea",Naproxen,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+699,Todd Solis,30,Female,135/75,121,Pollen,"Asthma, Hypertension","wheezing, breathlessness","Cetirizine, Insulin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+700,Jennifer Delgado,47,Female,106/88,113,Peanuts,Kidney Disease,"cough, runny nose","Metformin, Insulin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+701,Nicholas Evans,26,Male,134/72,174,None,Diabetes,"frequent urination, high sugar",Atorvastatin,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+702,Jennifer Moreno,26,Female,128/70,99,None,Cold,"sneezing, runny nose",Paracetamol,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+703,Micheal Cole,70,Male,113/87,177,Pollen,"Asthma, Diabetes","fatigue, high sugar",Metformin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+704,Johnny Johnson,40,Female,112/82,123,Dust,"Asthma, Diabetes","cough, breathlessness",Losartan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+705,Shannon Rodriguez,22,Female,137/91,149,Pollen,Asthma,"chest pain, fatigue","Atorvastatin, Ibuprofen",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+706,Danielle Decker,75,Female,124/79,102,Penicillin,"Heart Disease, Asthma","breathlessness, wheezing",Metformin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+707,Jessica Wagner,38,Male,117/84,110,Penicillin,"Fever, Hypertension","breathlessness, cough",Atorvastatin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+708,Anthony Middleton,40,Female,151/88,115,Pollen,"Asthma, Kidney Disease","nausea, fatigue",Furosemide,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+709,Brian Campbell,52,Male,129/72,117,None,Hypertension,"light sensitivity, nausea",Clopidogrel,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+710,Manuel Rivera,53,Female,138/83,93,Pollen,Fever,"shortness of breath, fatigue","Salbutamol, Lisinopril",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+711,Lauren Lopez,31,Male,103/88,88,Peanuts,"Diabetes, Heart Disease","cough, runny nose","Clopidogrel, Metformin",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+712,Latasha James,48,Male,136/89,108,Penicillin,Hypertension,"headache, chest pain",Lisinopril,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+713,Megan Delgado,65,Male,138/92,99,None,"Migraine, Kidney Disease","nausea, light sensitivity",Ibuprofen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+714,Teresa Tucker,56,Male,126/75,141,Dust,"Fever, Migraine","blurred vision, frequent urination","Loratadine, Cetirizine",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+715,Victoria Mclaughlin,51,Female,143/91,110,Pollen,Kidney Disease,"chest pain, headache",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+716,Nicholas Chan,38,Female,129/75,83,Seafood,Fever,"nausea, light sensitivity",Losartan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+717,Gerald Walker,19,Male,148/85,124,None,Diabetes,"chest pain, fatigue","Cetirizine, Paracetamol",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+718,John Solomon,35,Male,102/83,110,Pollen,"Hypertension, Asthma","cough, runny nose",Clopidogrel,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+719,Christina Mitchell,38,Female,122/69,86,None,Asthma,"sneezing, runny nose",Furosemide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+720,Tamara Jones,28,Male,129/67,120,Penicillin,Asthma,"high temperature, fatigue",Atorvastatin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+721,Candace Martinez,36,Female,169/93,92,Pollen,Cold,"fatigue, shortness of breath",Salbutamol,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+722,Peggy Gomez,69,Male,144/94,120,None,Migraine,"headache, dizziness","Budesonide, Sumatriptan",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+723,Denise Ware,54,Female,122/67,84,Pollen,"Migraine, Asthma","high temperature, body pain","Salbutamol, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+724,Chelsea Jenkins,41,Female,122/83,249,Dust,"Heart Disease, Asthma","frequent urination, blurred vision",Lisinopril,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+725,Dennis Yates,57,Male,133/77,229,None,Fever,"fatigue, blurred vision","Budesonide, Ibuprofen",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+726,Evan Miller,42,Female,105/76,109,Pollen,Hypertension,"sneezing, runny nose",Losartan,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+727,Kaylee Stevens,30,Female,141/77,105,Seafood,Migraine,"fatigue, nausea",Paracetamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+728,Melanie Brown,78,Female,109/90,93,Penicillin,"Diabetes, Kidney Disease","wheezing, breathlessness","Lisinopril, Loratadine",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+729,Mario Castillo,78,Female,118/78,221,Peanuts,Hypertension,"frequent urination, fatigue","Furosemide, Insulin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+730,Patricia Reyes,73,Female,138/76,96,Pollen,Kidney Disease,"severe headache, light sensitivity","Ibuprofen, Amlodipine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+731,William Young,48,Male,132/81,116,Peanuts,Hypertension,"nausea, severe headache",Atorvastatin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+732,Nicole Maynard,18,Male,159/84,121,Penicillin,"Fever, Migraine","shortness of breath, chest pain",Sumatriptan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+733,Andrew Davis,58,Male,107/76,92,Seafood,"Cold, Asthma","nausea, severe headache",Cetirizine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+734,Dr. Christopher Lopez,41,Female,110/79,179,Pollen,"Migraine, Cold","fatigue, high sugar","Clopidogrel, Budesonide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+735,Mark Campbell,25,Male,159/93,113,None,"Kidney Disease, Asthma","chest pain, fatigue","Ibuprofen, Clopidogrel",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+736,Kathleen Cole,69,Male,140/105,86,None,Migraine,"chest pain, dizziness",Sumatriptan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+737,George Stevens,72,Female,113/72,109,Pollen,Cold,"fatigue, body pain","Losartan, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,High
+738,Miss Pamela Hahn,76,Female,120/86,135,Pollen,"Fever, Asthma","swelling, fatigue","Loratadine, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+739,Robin Yates,18,Male,114/81,247,Peanuts,Kidney Disease,"high sugar, frequent urination",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+740,Sean Miller,71,Male,156/88,93,Peanuts,Kidney Disease,"nausea, fatigue","Budesonide, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+741,Ryan Myers,50,Male,125/88,105,Pollen,Heart Disease,"cough, wheezing",Amlodipine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+742,Richard Smith,58,Male,110/89,230,Dust,"Diabetes, Heart Disease","fatigue, high sugar",Sumatriptan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+743,Gregory Hancock,33,Male,114/76,114,Peanuts,"Diabetes, Asthma","breathlessness, wheezing",Salbutamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+744,Caroline Allen,25,Female,142/88,94,Penicillin,Hypertension,"dizziness, chest pain",Naproxen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+745,Michelle Miller,24,Female,121/88,89,Penicillin,Kidney Disease,"fatigue, swelling","Atorvastatin, Naproxen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+746,Reginald Smith,37,Male,133/75,122,None,Heart Disease,"cough, breathlessness","Naproxen, Ibuprofen",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+747,Sonya Meyer,51,Female,134/73,92,Penicillin,Asthma,"cough, breathlessness",Clopidogrel,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+748,John Ramos,38,Male,117/72,233,Peanuts,"Migraine, Hypertension","frequent urination, blurred vision",Clopidogrel,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+749,John Porter,47,Female,127/81,105,Seafood,Cold,"high temperature, body pain","Furosemide, Insulin",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+750,Krystal Johnson,28,Male,131/78,108,Dust,"Hypertension, Fever","body pain, fatigue","Lisinopril, Losartan",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+751,Marc Williams,46,Male,137/101,101,Dust,"Heart Disease, Cold","chest pain, dizziness",Losartan,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+752,Erin Hardy,68,Male,142/82,89,None,"Asthma, Kidney Disease","swelling, fatigue","Losartan, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+753,Edward Allen,31,Female,166/105,110,Dust,"Fever, Migraine","chest pain, fatigue",Cetirizine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+754,Wendy Johnson,54,Female,162/95,105,None,Migraine,"headache, chest pain","Insulin, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+755,Jennifer Butler,28,Female,142/82,95,Pollen,"Diabetes, Heart Disease","light sensitivity, severe headache",Sumatriptan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+756,Jennifer Nixon,75,Male,120/90,142,Pollen,Kidney Disease,"fatigue, frequent urination","Paracetamol, Budesonide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+757,Glenda Thompson,53,Female,166/104,88,None,"Migraine, Kidney Disease","dizziness, chest pain",Clopidogrel,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+758,Marie Wright,32,Male,136/70,157,Dust,"Cold, Hypertension","fatigue, frequent urination",Cetirizine,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+759,Mr. Kelly Shaffer DDS,77,Male,118/71,154,Penicillin,Fever,"fatigue, frequent urination","Furosemide, Salbutamol",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+760,Briana Williams,25,Male,125/74,117,Peanuts,Cold,"nausea, light sensitivity","Naproxen, Salbutamol",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+761,Lisa Hines,32,Male,121/94,98,Pollen,"Cold, Heart Disease","light sensitivity, severe headache",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+762,Destiny Deleon,31,Male,131/76,199,Dust,"Hypertension, Asthma","blurred vision, fatigue",Atorvastatin,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+763,Mario Gonzalez,59,Male,137/73,88,Dust,"Migraine, Kidney Disease","severe headache, nausea",Furosemide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+764,Mark Johnson,28,Female,156/95,91,Penicillin,Hypertension,"swelling, fatigue",Metformin,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+765,Nicole Martinez,19,Female,133/79,102,Pollen,Heart Disease,"body pain, high temperature","Cetirizine, Amlodipine",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+766,Malik Beasley,21,Female,147/91,96,Dust,"Cold, Asthma","chest pain, shortness of breath",Furosemide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+767,Vanessa Camacho,51,Female,111/91,83,Seafood,Cold,"light sensitivity, severe headache",Insulin,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+768,Bonnie Little,33,Male,134/68,97,Penicillin,"Kidney Disease, Diabetes","high temperature, body pain",Paracetamol,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+769,Amanda Garcia,40,Female,118/88,80,None,"Fever, Kidney Disease","cough, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+770,Heather Fitzpatrick,29,Female,133/84,89,Penicillin,"Heart Disease, Diabetes","breathlessness, wheezing",Paracetamol,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+771,Teresa Gibbs,56,Female,125/88,140,Seafood,"Hypertension, Diabetes","blurred vision, fatigue",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+772,Jay Butler,66,Male,129/73,86,Dust,"Migraine, Heart Disease","wheezing, cough","Paracetamol, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+773,Chase Humphrey,18,Female,124/92,101,Penicillin,Fever,"light sensitivity, nausea",Salbutamol,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+774,Abigail Cox,40,Female,105/77,116,Pollen,"Cold, Heart Disease","cough, wheezing",Cetirizine,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+775,Nicholas Gonzalez,79,Female,169/99,118,Seafood,"Heart Disease, Cold","headache, dizziness","Paracetamol, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+776,Kelsey Lowery,71,Male,157/105,119,Seafood,"Hypertension, Diabetes","fatigue, shortness of breath","Salbutamol, Loratadine",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+777,Paul Frank,57,Male,119/80,98,Seafood,Migraine,"high temperature, body pain",Cetirizine,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+778,Timothy Smith,21,Female,154/85,112,Seafood,Fever,"dizziness, headache",Clopidogrel,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+779,Brandon Reid,79,Male,127/78,89,Dust,"Hypertension, Asthma","cough, breathlessness",Insulin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+780,Steven Johnson,69,Female,127/77,86,Peanuts,"Asthma, Fever","sneezing, runny nose","Atorvastatin, Furosemide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+781,Carrie Jackson,34,Male,126/82,92,Pollen,Fever,"sneezing, runny nose","Budesonide, Cetirizine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+782,Phillip Lloyd,26,Female,155/101,128,Seafood,"Heart Disease, Cold","chest pain, dizziness","Lisinopril, Cetirizine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+783,John May,79,Female,112/74,218,Penicillin,"Asthma, Fever","high sugar, fatigue","Insulin, Furosemide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+784,Jennifer Hampton,60,Male,149/100,133,Peanuts,Hypertension,"nausea, fatigue",Paracetamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+785,Earl Reid,39,Male,153/103,115,Seafood,Hypertension,"chest pain, dizziness",Cetirizine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+786,Spencer Gonzalez,26,Male,145/74,99,Penicillin,Migraine,"light sensitivity, nausea",Losartan,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+787,James Moore,51,Male,150/91,91,Penicillin,"Kidney Disease, Diabetes","dizziness, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+788,Melissa Carlson,71,Female,128/86,119,Peanuts,Diabetes,"cough, sneezing",Salbutamol,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+789,Sean Jones,28,Male,130/80,98,None,"Heart Disease, Migraine","sneezing, cough","Furosemide, Cetirizine",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+790,Amber George,44,Female,114/70,98,Peanuts,"Diabetes, Fever","nausea, severe headache","Insulin, Atorvastatin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+791,Emily Kim,20,Female,113/84,109,Seafood,Heart Disease,"nausea, severe headache",Clopidogrel,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+792,Keith Williams,50,Male,131/95,94,Peanuts,"Asthma, Migraine","fatigue, nausea","Furosemide, Insulin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",High
+793,Aaron Rivera,42,Female,143/91,91,Peanuts,Heart Disease,"light sensitivity, nausea","Furosemide, Insulin",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+794,Pamela Merritt,32,Male,126/73,111,Penicillin,"Cold, Kidney Disease","cough, wheezing",Losartan,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+795,Donald Hawkins,66,Female,124/76,124,None,Hypertension,"fatigue, swelling","Clopidogrel, Ibuprofen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+796,Sarah Munoz,38,Male,127/84,104,Penicillin,Fever,"breathlessness, cough","Sumatriptan, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+797,David Henderson,45,Male,107/88,81,Pollen,Diabetes,"cough, breathlessness",Metformin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+798,Karen Smith,39,Male,168/100,97,Peanuts,"Heart Disease, Fever","headache, dizziness",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+799,Marcus Wu,73,Male,156/77,93,Dust,Hypertension,"nausea, fatigue","Loratadine, Metformin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+800,Brian Barrett,32,Female,139/78,189,Seafood,Fever,"high sugar, fatigue",Loratadine,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+801,Jeremiah Graham,43,Male,134/87,87,None,"Diabetes, Migraine","fatigue, body pain","Lisinopril, Salbutamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+802,Andrew Welch,31,Female,134/71,95,Seafood,Heart Disease,"wheezing, breathlessness",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+803,Timothy Chavez,74,Female,143/93,87,Penicillin,"Cold, Heart Disease","headache, chest pain","Lisinopril, Loratadine",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+804,Matthew Wilson,77,Male,110/76,208,Peanuts,Migraine,"blurred vision, high sugar",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+805,Lori Clark,45,Female,122/74,87,Penicillin,"Heart Disease, Hypertension","wheezing, breathlessness","Lisinopril, Sumatriptan",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+806,Kristen Carney,55,Male,149/98,119,Pollen,Cold,"chest pain, headache",Amlodipine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+807,Dr. Michael Brooks,36,Male,115/81,118,None,"Asthma, Fever","cough, breathlessness","Naproxen, Atorvastatin",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+808,Louis Cole,34,Male,166/96,99,Seafood,"Fever, Kidney Disease","dizziness, chest pain",Paracetamol,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+809,Johnny Estes,21,Female,161/104,116,Penicillin,Asthma,"dizziness, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+810,Timothy Andrews,41,Male,137/92,129,Pollen,Diabetes,"dizziness, chest pain","Insulin, Salbutamol",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Low
+811,Jenna Burton,70,Male,103/73,119,Pollen,Kidney Disease,"body pain, fatigue","Sumatriptan, Metformin",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+812,Keith Edwards,60,Female,122/71,122,Penicillin,"Diabetes, Fever","wheezing, breathlessness","Paracetamol, Furosemide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+813,Tony Lee,39,Female,137/83,240,Seafood,"Fever, Kidney Disease","fatigue, blurred vision","Lisinopril, Ibuprofen",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+814,Spencer Fuller,28,Female,129/88,95,Pollen,"Fever, Diabetes","high temperature, fatigue",Ibuprofen,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+815,Ryan Smith,57,Female,121/78,224,Penicillin,Hypertension,"high sugar, blurred vision","Atorvastatin, Lisinopril",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+816,Mitchell Brennan,47,Male,133/70,109,Seafood,"Cold, Migraine","severe headache, nausea",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+817,Joanna White,79,Male,158/85,106,Peanuts,"Asthma, Hypertension","shortness of breath, fatigue",Salbutamol,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+818,Kathryn Wright,32,Male,130/71,163,Dust,"Diabetes, Fever","blurred vision, high sugar",Insulin,Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+819,Jerry Allen,19,Female,134/87,82,Penicillin,"Hypertension, Diabetes","fatigue, high temperature","Losartan, Paracetamol",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+820,Paula Crawford,54,Female,156/82,131,Peanuts,Diabetes,"shortness of breath, fatigue","Clopidogrel, Budesonide",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",High
+821,David Crawford,48,Female,169/80,100,Dust,"Asthma, Fever","shortness of breath, chest pain",Losartan,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+822,Daniel Stewart,78,Male,154/98,92,None,"Hypertension, Diabetes","fatigue, chest pain",Lisinopril,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+823,Carla Jackson,56,Female,131/86,206,Dust,"Cold, Kidney Disease","blurred vision, frequent urination","Loratadine, Budesonide",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+824,Mario Pittman,47,Female,107/87,95,Seafood,"Hypertension, Asthma","sneezing, runny nose",Clopidogrel,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+825,Haley Smith,46,Female,114/83,88,None,"Asthma, Fever","runny nose, cough","Ibuprofen, Budesonide",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+826,Amanda Willis,44,Male,156/90,125,Seafood,"Diabetes, Hypertension","swelling, nausea",Lisinopril,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+827,Nicole Mills,65,Male,113/71,107,Peanuts,Asthma,"severe headache, light sensitivity","Lisinopril, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+828,Katie Lewis,63,Female,107/75,101,Pollen,Hypertension,"runny nose, cough","Sumatriptan, Naproxen",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+829,Colin Nguyen,36,Female,128/98,96,Penicillin,Diabetes,"nausea, swelling","Sumatriptan, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+830,Zachary Burgess,78,Male,114/74,111,Penicillin,"Fever, Asthma","body pain, high temperature","Atorvastatin, Furosemide",Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+831,Rebecca Thompson,70,Male,123/86,175,Pollen,"Fever, Hypertension","high sugar, fatigue",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+832,Scott Dixon,74,Male,118/73,118,None,"Asthma, Diabetes","cough, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+833,Regina Gutierrez,18,Female,101/76,93,Peanuts,"Asthma, Kidney Disease","sneezing, runny nose","Ibuprofen, Sumatriptan",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+834,Heidi Oconnor,46,Female,166/93,90,Dust,Heart Disease,"headache, dizziness",Loratadine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+835,Tammie Parsons,50,Female,113/84,120,Seafood,"Diabetes, Cold","cough, breathlessness",Atorvastatin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+836,Charles Dixon,78,Male,117/74,215,Peanuts,Fever,"blurred vision, fatigue","Salbutamol, Loratadine",Diabetes,Metformin,Insulin,"nausea, diarrhea",Medium
+837,Diana Mercado,36,Male,117/90,85,Penicillin,Kidney Disease,"light sensitivity, severe headache",Naproxen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+838,Melissa Baker,20,Female,127/78,119,Dust,"Migraine, Fever","wheezing, breathlessness",Ibuprofen,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+839,Lisa Williams,49,Female,143/81,114,Pollen,Cold,"nausea, light sensitivity",Ibuprofen,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+840,Edwin Carlson,33,Female,137/85,119,Pollen,"Kidney Disease, Heart Disease","shortness of breath, chest pain",Naproxen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+841,Haley Nolan,61,Male,121/84,102,Pollen,"Diabetes, Fever","nausea, swelling","Paracetamol, Atorvastatin",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+842,Stephen Lee,45,Female,121/71,97,Penicillin,"Diabetes, Asthma","nausea, severe headache","Lisinopril, Losartan",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+843,Donald Whitney,67,Male,121/69,118,Seafood,Kidney Disease,"runny nose, cough",Atorvastatin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",High
+844,Edward James,59,Male,168/91,108,Dust,Kidney Disease,"chest pain, headache",Ibuprofen,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+845,Gloria Green,44,Male,165/103,105,Dust,Hypertension,"chest pain, fatigue","Naproxen, Metformin",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+846,James Allen,32,Male,111/78,235,Peanuts,"Asthma, Kidney Disease","fatigue, frequent urination","Amlodipine, Insulin",Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+847,Timothy Wang,19,Male,154/94,94,Dust,Fever,"swelling, fatigue","Lisinopril, Paracetamol",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+848,Victoria Morgan,47,Male,106/73,121,Seafood,"Fever, Cold","fatigue, body pain",Loratadine,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+849,Debbie Bennett,48,Female,134/81,95,None,"Kidney Disease, Asthma","body pain, high temperature",Sumatriptan,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+850,Jessica Gardner,67,Male,148/86,115,Penicillin,"Heart Disease, Hypertension","nausea, swelling",Losartan,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+851,Kimberly Foster,55,Male,110/74,105,Dust,Diabetes,"light sensitivity, nausea","Paracetamol, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+852,Victor Jackson,20,Female,127/88,118,Penicillin,"Cold, Kidney Disease","wheezing, breathlessness","Naproxen, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+853,Andrew Jenkins,47,Female,162/97,144,None,Kidney Disease,"fatigue, chest pain",Furosemide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+854,Ann Murphy,51,Male,110/76,108,Pollen,"Migraine, Hypertension","breathlessness, cough","Salbutamol, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",High
+855,Michael Hernandez,18,Female,127/88,103,Peanuts,"Heart Disease, Fever","nausea, fatigue",Salbutamol,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+856,Alyssa Chavez,69,Female,133/84,96,Pollen,Heart Disease,"sneezing, runny nose",Budesonide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+857,Ian Armstrong,38,Female,115/74,200,None,"Cold, Hypertension","fatigue, blurred vision",Sumatriptan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+858,Gregory Dunn,56,Male,109/81,120,Pollen,"Diabetes, Hypertension","light sensitivity, severe headache","Ibuprofen, Lisinopril",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+859,Michelle Wilkerson,41,Female,116/82,114,Dust,Asthma,"fatigue, high temperature",Cetirizine,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+860,Charles Hubbard,26,Female,156/103,122,None,"Cold, Hypertension","chest pain, dizziness",Loratadine,Hypertension,Amlodipine,Losartan,"swelling, fatigue",High
+861,Greg Herrera,27,Male,120/70,100,None,Migraine,"breathlessness, cough","Naproxen, Budesonide",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+862,Joshua Schaefer,53,Female,124/89,104,Penicillin,"Fever, Kidney Disease","runny nose, sneezing","Amlodipine, Sumatriptan",Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+863,Michelle Hall,78,Female,127/74,107,Penicillin,"Fever, Heart Disease","cough, wheezing",Lisinopril,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Medium
+864,Gregg Dalton,73,Female,137/84,238,Peanuts,"Cold, Fever","high sugar, blurred vision",Furosemide,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+865,Mary White,30,Female,121/86,164,Seafood,"Heart Disease, Diabetes","fatigue, high sugar","Paracetamol, Naproxen",Diabetes,Metformin,Insulin,"nausea, diarrhea",High
+866,Wendy Simmons,20,Female,130/77,82,Peanuts,"Diabetes, Fever","fatigue, body pain",Naproxen,Fever,Paracetamol,Ibuprofen,stomach irritation,High
+867,Daniel Hoffman,49,Male,135/93,114,Penicillin,"Diabetes, Fever","severe headache, light sensitivity",Budesonide,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",High
+868,Tammy Walter,44,Male,138/99,125,None,"Hypertension, Kidney Disease","chest pain, headache","Cetirizine, Atorvastatin",Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+869,Amanda Bradford,71,Female,140/98,136,Seafood,"Kidney Disease, Migraine","shortness of breath, chest pain",Amlodipine,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+870,David Ortiz,64,Female,107/75,108,Seafood,Kidney Disease,"breathlessness, wheezing",Metformin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+871,Sarah Lewis,25,Female,159/98,143,Penicillin,"Hypertension, Diabetes","fatigue, chest pain",Budesonide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+872,Ariel Marshall,55,Male,140/105,90,Peanuts,"Hypertension, Heart Disease","chest pain, shortness of breath",Ibuprofen,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+873,Laura Watkins,65,Male,119/66,104,Penicillin,Fever,"runny nose, sneezing",Atorvastatin,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Low
+874,Dr. Derek Bowman MD,74,Male,111/74,96,Seafood,"Hypertension, Cold","fatigue, body pain","Clopidogrel, Budesonide",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+875,Chad Ellis,71,Male,107/88,104,Seafood,"Heart Disease, Migraine","severe headache, light sensitivity","Cetirizine, Budesonide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+876,Hailey Rodriguez,23,Male,116/71,109,Dust,Asthma,"body pain, high temperature","Salbutamol, Loratadine",Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+877,George Goodman,60,Male,140/97,91,None,Asthma,"nausea, fatigue","Naproxen, Budesonide",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+878,Melissa Moore,76,Female,114/75,109,Penicillin,Migraine,"cough, breathlessness","Lisinopril, Clopidogrel",Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+879,Zachary Estes,64,Female,138/75,110,Dust,"Diabetes, Hypertension","fatigue, body pain",Lisinopril,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+880,Julie Miranda,55,Male,130/91,95,Penicillin,Asthma,"fatigue, swelling","Insulin, Naproxen",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+881,Joseph Young,47,Female,140/94,90,Penicillin,Asthma,"fatigue, chest pain","Ibuprofen, Insulin",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Low
+882,Sandra Sims,23,Male,129/96,120,Pollen,"Asthma, Migraine","fatigue, swelling",Naproxen,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+883,Michael Melendez,76,Female,124/79,95,Dust,Heart Disease,"cough, sneezing",Furosemide,Cold,Cetirizine,Loratadine,"drowsiness, dry mouth",Medium
+884,Richard Schroeder,56,Female,154/77,107,Seafood,Asthma,"fatigue, swelling",Clopidogrel,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+885,Ronnie Edwards,57,Female,139/72,222,Dust,"Cold, Diabetes","frequent urination, fatigue",Ibuprofen,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+886,Jared Bridges,59,Male,147/79,103,Seafood,"Diabetes, Asthma","fatigue, nausea","Budesonide, Amlodipine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+887,Katie Ramirez,47,Male,157/88,126,None,Heart Disease,"dizziness, headache",Furosemide,Hypertension,Amlodipine,Losartan,"swelling, fatigue",Medium
+888,Terry Mitchell,59,Female,132/94,83,Dust,"Hypertension, Fever","nausea, light sensitivity","Clopidogrel, Furosemide",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+889,Kristopher Knox,25,Male,157/97,138,Seafood,Diabetes,"shortness of breath, chest pain","Paracetamol, Losartan",Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+890,Erin Davis,45,Male,134/79,82,Dust,"Heart Disease, Diabetes","severe headache, nausea","Paracetamol, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+891,Robert Carter,52,Female,115/79,185,None,"Heart Disease, Asthma","blurred vision, fatigue",Losartan,Diabetes,Metformin,Insulin,"nausea, diarrhea",Low
+892,Patricia Simmons,33,Male,125/92,91,Peanuts,"Kidney Disease, Asthma","swelling, nausea","Sumatriptan, Clopidogrel",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Medium
+893,Stephen Luna,20,Male,125/81,82,Peanuts,"Hypertension, Asthma","severe headache, light sensitivity","Lisinopril, Cetirizine",Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Low
+894,Bryan Petty,64,Male,127/68,92,Penicillin,"Cold, Heart Disease","fatigue, body pain",Clopidogrel,Fever,Paracetamol,Ibuprofen,stomach irritation,Medium
+895,Darius Johns,35,Male,137/91,127,Pollen,Fever,"swelling, fatigue","Metformin, Cetirizine",Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low
+896,Theodore Smith,35,Female,119/89,120,Seafood,Cold,"wheezing, breathlessness",Atorvastatin,Asthma,Salbutamol,Budesonide,"tremors, throat irritation",Low
+897,Robert Johnson,64,Female,137/78,120,Dust,"Migraine, Fever","fatigue, body pain",Atorvastatin,Fever,Paracetamol,Ibuprofen,stomach irritation,Low
+898,Linda Lopez,27,Female,136/76,114,Seafood,"Fever, Cold","light sensitivity, severe headache",Amlodipine,Migraine,Sumatriptan,Naproxen,"drowsiness, tingling",Medium
+899,James Mckenzie,23,Male,163/91,109,Seafood,"Migraine, Diabetes","shortness of breath, fatigue",Budesonide,Heart Disease,Atorvastatin,Clopidogrel,"muscle pain, dizziness",Medium
+900,Michael Thomas,44,Male,138/92,132,Penicillin,"Asthma, Cold","fatigue, swelling",Losartan,Kidney Disease,Furosemide,Lisinopril,"dehydration, dizziness",Low

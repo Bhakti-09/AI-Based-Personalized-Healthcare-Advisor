@@ -1,0 +1,901 @@
+interaction_id,drug1,drug2,interaction,severity
+1,Aspirin,Ibuprofen,High bleeding risk,High
+2,Metformin,Alcohol,Lactic acidosis risk,High
+3,Salbutamol,Propranolol,Reduced bronchodilation effect,Medium
+4,Paracetamol,Alcohol,Liver toxicity risk,High
+5,Atorvastatin,Clarithromycin,Muscle damage risk,High
+6,Losartan,Ibuprofen,Reduced kidney function,Medium
+7,Amlodipine,Salbutamol,increased blood pressure,Medium
+8,Loratadine,Insulin,temporary fatigue,Low
+9,Naproxen,Budesonide,reduced drug effectiveness,Medium
+10,Losartan,Budesonide,temporary fatigue,Low
+11,Cetirizine,Atorvastatin,minor stomach discomfort,Low
+12,Paracetamol,Insulin,temporary fatigue,Low
+13,Paracetamol,Budesonide,reduced drug effectiveness,Medium
+14,Clopidogrel,Salbutamol,reduced drug effectiveness,Medium
+15,Lisinopril,Salbutamol,heart rhythm complications,High
+16,Losartan,Budesonide,reduced drug effectiveness,Medium
+17,Lisinopril,Furosemide,severe bleeding risk,High
+18,Naproxen,Budesonide,temporary fatigue,Low
+19,Sumatriptan,Insulin,minor stomach discomfort,Low
+20,Paracetamol,Salbutamol,mild dizziness,Low
+21,Naproxen,Loratadine,reduced drug effectiveness,Medium
+22,Naproxen,Salbutamol,moderate kidney stress,Medium
+23,Amlodipine,Clopidogrel,increased blood pressure,Medium
+24,Paracetamol,Sumatriptan,increased blood pressure,Medium
+25,Paracetamol,Losartan,reduced drug effectiveness,Medium
+26,Amlodipine,Naproxen,mild dizziness,Low
+27,Lisinopril,Losartan,reduced drug effectiveness,Medium
+28,Furosemide,Loratadine,minor stomach discomfort,Low
+29,Amlodipine,Naproxen,moderate kidney stress,Medium
+30,Naproxen,Loratadine,increased blood pressure,Medium
+31,Sumatriptan,Ibuprofen,heart rhythm complications,High
+32,Naproxen,Atorvastatin,increased blood pressure,Medium
+33,Lisinopril,Atorvastatin,moderate kidney stress,Medium
+34,Budesonide,Ibuprofen,mild dizziness,Low
+35,Cetirizine,Loratadine,mild dizziness,Low
+36,Lisinopril,Budesonide,reduced drug effectiveness,Medium
+37,Cetirizine,Metformin,reduced drug effectiveness,Medium
+38,Cetirizine,Clopidogrel,reduced drug effectiveness,Medium
+39,Clopidogrel,Salbutamol,moderate kidney stress,Medium
+40,Sumatriptan,Budesonide,mild dizziness,Low
+41,Cetirizine,Metformin,increased blood pressure,Medium
+42,Amlodipine,Lisinopril,moderate kidney stress,Medium
+43,Furosemide,Sumatriptan,moderate kidney stress,Medium
+44,Clopidogrel,Loratadine,severe bleeding risk,High
+45,Atorvastatin,Loratadine,reduced drug effectiveness,Medium
+46,Loratadine,Salbutamol,increased blood pressure,Medium
+47,Furosemide,Salbutamol,moderate kidney stress,Medium
+48,Metformin,Atorvastatin,reduced drug effectiveness,Medium
+49,Clopidogrel,Insulin,severe bleeding risk,High
+50,Cetirizine,Loratadine,respiratory complications,High
+51,Losartan,Salbutamol,minor stomach discomfort,Low
+52,Furosemide,Salbutamol,respiratory complications,High
+53,Paracetamol,Salbutamol,increased blood pressure,Medium
+54,Amlodipine,Ibuprofen,minor stomach discomfort,Low
+55,Losartan,Ibuprofen,severe bleeding risk,High
+56,Losartan,Atorvastatin,minor stomach discomfort,Low
+57,Furosemide,Losartan,mild dizziness,Low
+58,Atorvastatin,Insulin,reduced drug effectiveness,Medium
+59,Amlodipine,Budesonide,temporary fatigue,Low
+60,Amlodipine,Sumatriptan,moderate kidney stress,Medium
+61,Clopidogrel,Budesonide,reduced drug effectiveness,Medium
+62,Naproxen,Metformin,minor stomach discomfort,Low
+63,Naproxen,Clopidogrel,moderate kidney stress,Medium
+64,Cetirizine,Furosemide,moderate kidney stress,Medium
+65,Amlodipine,Metformin,increased blood pressure,Medium
+66,Metformin,Furosemide,mild dizziness,Low
+67,Loratadine,Ibuprofen,minor stomach discomfort,Low
+68,Furosemide,Salbutamol,temporary fatigue,Low
+69,Lisinopril,Furosemide,reduced drug effectiveness,Medium
+70,Clopidogrel,Loratadine,moderate kidney stress,Medium
+71,Cetirizine,Loratadine,temporary fatigue,Low
+72,Lisinopril,Naproxen,minor stomach discomfort,Low
+73,Sumatriptan,Salbutamol,temporary fatigue,Low
+74,Cetirizine,Naproxen,mild dizziness,Low
+75,Metformin,Salbutamol,temporary fatigue,Low
+76,Amlodipine,Cetirizine,temporary fatigue,Low
+77,Metformin,Paracetamol,moderate kidney stress,Medium
+78,Naproxen,Budesonide,increased blood pressure,Medium
+79,Naproxen,Paracetamol,moderate kidney stress,Medium
+80,Sumatriptan,Salbutamol,moderate kidney stress,Medium
+81,Naproxen,Atorvastatin,minor stomach discomfort,Low
+82,Paracetamol,Ibuprofen,temporary fatigue,Low
+83,Clopidogrel,Insulin,minor stomach discomfort,Low
+84,Amlodipine,Cetirizine,increased blood pressure,Medium
+85,Naproxen,Metformin,mild dizziness,Low
+86,Lisinopril,Salbutamol,temporary fatigue,Low
+87,Atorvastatin,Sumatriptan,increased blood pressure,Medium
+88,Paracetamol,Salbutamol,minor stomach discomfort,Low
+89,Clopidogrel,Atorvastatin,moderate kidney stress,Medium
+90,Insulin,Salbutamol,temporary fatigue,Low
+91,Sumatriptan,Ibuprofen,respiratory complications,High
+92,Insulin,Budesonide,mild dizziness,Low
+93,Naproxen,Losartan,reduced drug effectiveness,Medium
+94,Paracetamol,Insulin,minor stomach discomfort,Low
+95,Clopidogrel,Salbutamol,temporary fatigue,Low
+96,Metformin,Atorvastatin,respiratory complications,High
+97,Loratadine,Budesonide,mild dizziness,Low
+98,Clopidogrel,Losartan,increased blood pressure,Medium
+99,Cetirizine,Metformin,temporary fatigue,Low
+100,Lisinopril,Sumatriptan,moderate kidney stress,Medium
+101,Sumatriptan,Salbutamol,temporary fatigue,Low
+102,Furosemide,Salbutamol,increased blood pressure,Medium
+103,Paracetamol,Atorvastatin,minor stomach discomfort,Low
+104,Amlodipine,Insulin,moderate kidney stress,Medium
+105,Sumatriptan,Insulin,severe bleeding risk,High
+106,Metformin,Furosemide,mild dizziness,Low
+107,Cetirizine,Naproxen,temporary fatigue,Low
+108,Clopidogrel,Insulin,moderate kidney stress,Medium
+109,Loratadine,Ibuprofen,reduced drug effectiveness,Medium
+110,Atorvastatin,Insulin,increased blood pressure,Medium
+111,Clopidogrel,Insulin,mild dizziness,Low
+112,Clopidogrel,Loratadine,temporary fatigue,Low
+113,Paracetamol,Furosemide,minor stomach discomfort,Low
+114,Cetirizine,Insulin,moderate kidney stress,Medium
+115,Clopidogrel,Paracetamol,severe bleeding risk,High
+116,Losartan,Atorvastatin,respiratory complications,High
+117,Lisinopril,Loratadine,moderate kidney stress,Medium
+118,Paracetamol,Sumatriptan,increased blood pressure,Medium
+119,Cetirizine,Paracetamol,moderate kidney stress,Medium
+120,Cetirizine,Losartan,increased blood pressure,Medium
+121,Naproxen,Clopidogrel,moderate kidney stress,Medium
+122,Cetirizine,Sumatriptan,heart rhythm complications,High
+123,Cetirizine,Furosemide,severe bleeding risk,High
+124,Naproxen,Metformin,temporary fatigue,Low
+125,Clopidogrel,Salbutamol,minor stomach discomfort,Low
+126,Amlodipine,Salbutamol,severe bleeding risk,High
+127,Clopidogrel,Budesonide,temporary fatigue,Low
+128,Clopidogrel,Loratadine,increased blood pressure,Medium
+129,Amlodipine,Atorvastatin,moderate kidney stress,Medium
+130,Cetirizine,Insulin,minor stomach discomfort,Low
+131,Naproxen,Metformin,moderate kidney stress,Medium
+132,Sumatriptan,Loratadine,mild dizziness,Low
+133,Losartan,Ibuprofen,minor stomach discomfort,Low
+134,Clopidogrel,Salbutamol,temporary fatigue,Low
+135,Clopidogrel,Loratadine,minor stomach discomfort,Low
+136,Budesonide,Salbutamol,moderate kidney stress,Medium
+137,Furosemide,Sumatriptan,mild dizziness,Low
+138,Lisinopril,Loratadine,increased blood pressure,Medium
+139,Sumatriptan,Salbutamol,temporary fatigue,Low
+140,Lisinopril,Furosemide,temporary fatigue,Low
+141,Clopidogrel,Loratadine,reduced drug effectiveness,Medium
+142,Atorvastatin,Sumatriptan,increased blood pressure,Medium
+143,Ibuprofen,Salbutamol,minor stomach discomfort,Low
+144,Naproxen,Atorvastatin,minor stomach discomfort,Low
+145,Losartan,Sumatriptan,temporary fatigue,Low
+146,Cetirizine,Ibuprofen,reduced drug effectiveness,Medium
+147,Metformin,Budesonide,minor stomach discomfort,Low
+148,Amlodipine,Lisinopril,reduced drug effectiveness,Medium
+149,Amlodipine,Losartan,heart rhythm complications,High
+150,Paracetamol,Ibuprofen,heart rhythm complications,High
+151,Losartan,Salbutamol,temporary fatigue,Low
+152,Lisinopril,Insulin,temporary fatigue,Low
+153,Cetirizine,Paracetamol,minor stomach discomfort,Low
+154,Amlodipine,Clopidogrel,minor stomach discomfort,Low
+155,Cetirizine,Salbutamol,moderate kidney stress,Medium
+156,Lisinopril,Insulin,moderate kidney stress,Medium
+157,Clopidogrel,Salbutamol,reduced drug effectiveness,Medium
+158,Amlodipine,Ibuprofen,mild dizziness,Low
+159,Cetirizine,Salbutamol,moderate kidney stress,Medium
+160,Paracetamol,Furosemide,increased blood pressure,Medium
+161,Atorvastatin,Sumatriptan,moderate kidney stress,Medium
+162,Insulin,Salbutamol,increased blood pressure,Medium
+163,Cetirizine,Atorvastatin,respiratory complications,High
+164,Naproxen,Sumatriptan,mild dizziness,Low
+165,Paracetamol,Budesonide,temporary fatigue,Low
+166,Naproxen,Atorvastatin,reduced drug effectiveness,Medium
+167,Amlodipine,Salbutamol,moderate kidney stress,Medium
+168,Amlodipine,Sumatriptan,temporary fatigue,Low
+169,Naproxen,Ibuprofen,severe bleeding risk,High
+170,Paracetamol,Furosemide,mild dizziness,Low
+171,Metformin,Insulin,mild dizziness,Low
+172,Cetirizine,Salbutamol,moderate kidney stress,Medium
+173,Cetirizine,Furosemide,reduced drug effectiveness,Medium
+174,Furosemide,Insulin,mild dizziness,Low
+175,Loratadine,Budesonide,moderate kidney stress,Medium
+176,Losartan,Loratadine,minor stomach discomfort,Low
+177,Insulin,Ibuprofen,moderate kidney stress,Medium
+178,Loratadine,Salbutamol,minor stomach discomfort,Low
+179,Clopidogrel,Sumatriptan,minor stomach discomfort,Low
+180,Naproxen,Clopidogrel,temporary fatigue,Low
+181,Cetirizine,Furosemide,temporary fatigue,Low
+182,Ibuprofen,Salbutamol,mild dizziness,Low
+183,Paracetamol,Ibuprofen,reduced drug effectiveness,Medium
+184,Atorvastatin,Ibuprofen,increased blood pressure,Medium
+185,Sumatriptan,Insulin,moderate kidney stress,Medium
+186,Naproxen,Atorvastatin,minor stomach discomfort,Low
+187,Amlodipine,Metformin,heart rhythm complications,High
+188,Atorvastatin,Insulin,reduced drug effectiveness,Medium
+189,Metformin,Ibuprofen,mild dizziness,Low
+190,Losartan,Loratadine,mild dizziness,Low
+191,Metformin,Insulin,moderate kidney stress,Medium
+192,Lisinopril,Furosemide,increased blood pressure,Medium
+193,Metformin,Ibuprofen,respiratory complications,High
+194,Paracetamol,Salbutamol,severe bleeding risk,High
+195,Losartan,Salbutamol,reduced drug effectiveness,Medium
+196,Clopidogrel,Sumatriptan,moderate kidney stress,Medium
+197,Lisinopril,Paracetamol,increased blood pressure,Medium
+198,Lisinopril,Sumatriptan,reduced drug effectiveness,Medium
+199,Clopidogrel,Atorvastatin,moderate kidney stress,Medium
+200,Losartan,Loratadine,heart rhythm complications,High
+201,Loratadine,Salbutamol,temporary fatigue,Low
+202,Cetirizine,Loratadine,minor stomach discomfort,Low
+203,Amlodipine,Naproxen,minor stomach discomfort,Low
+204,Clopidogrel,Metformin,mild dizziness,Low
+205,Metformin,Salbutamol,reduced drug effectiveness,Medium
+206,Metformin,Atorvastatin,moderate kidney stress,Medium
+207,Lisinopril,Insulin,moderate kidney stress,Medium
+208,Budesonide,Salbutamol,temporary fatigue,Low
+209,Loratadine,Budesonide,increased blood pressure,Medium
+210,Losartan,Salbutamol,minor stomach discomfort,Low
+211,Lisinopril,Sumatriptan,temporary fatigue,Low
+212,Paracetamol,Atorvastatin,severe bleeding risk,High
+213,Atorvastatin,Sumatriptan,minor stomach discomfort,Low
+214,Amlodipine,Atorvastatin,minor stomach discomfort,Low
+215,Budesonide,Salbutamol,mild dizziness,Low
+216,Lisinopril,Insulin,minor stomach discomfort,Low
+217,Cetirizine,Losartan,mild dizziness,Low
+218,Losartan,Salbutamol,mild dizziness,Low
+219,Loratadine,Ibuprofen,heart rhythm complications,High
+220,Lisinopril,Cetirizine,heart rhythm complications,High
+221,Amlodipine,Clopidogrel,moderate kidney stress,Medium
+222,Sumatriptan,Salbutamol,reduced drug effectiveness,Medium
+223,Amlodipine,Furosemide,reduced drug effectiveness,Medium
+224,Lisinopril,Insulin,minor stomach discomfort,Low
+225,Paracetamol,Furosemide,severe bleeding risk,High
+226,Lisinopril,Atorvastatin,moderate kidney stress,Medium
+227,Losartan,Atorvastatin,increased blood pressure,Medium
+228,Losartan,Budesonide,minor stomach discomfort,Low
+229,Losartan,Loratadine,moderate kidney stress,Medium
+230,Cetirizine,Ibuprofen,increased blood pressure,Medium
+231,Amlodipine,Insulin,reduced drug effectiveness,Medium
+232,Clopidogrel,Insulin,mild dizziness,Low
+233,Clopidogrel,Atorvastatin,minor stomach discomfort,Low
+234,Atorvastatin,Budesonide,increased blood pressure,Medium
+235,Naproxen,Furosemide,minor stomach discomfort,Low
+236,Sumatriptan,Budesonide,temporary fatigue,Low
+237,Cetirizine,Insulin,temporary fatigue,Low
+238,Amlodipine,Loratadine,reduced drug effectiveness,Medium
+239,Loratadine,Ibuprofen,reduced drug effectiveness,Medium
+240,Losartan,Sumatriptan,reduced drug effectiveness,Medium
+241,Amlodipine,Paracetamol,mild dizziness,Low
+242,Lisinopril,Atorvastatin,increased blood pressure,Medium
+243,Metformin,Furosemide,temporary fatigue,Low
+244,Clopidogrel,Loratadine,increased blood pressure,Medium
+245,Paracetamol,Losartan,respiratory complications,High
+246,Furosemide,Losartan,temporary fatigue,Low
+247,Naproxen,Salbutamol,heart rhythm complications,High
+248,Lisinopril,Atorvastatin,temporary fatigue,Low
+249,Lisinopril,Paracetamol,moderate kidney stress,Medium
+250,Lisinopril,Sumatriptan,mild dizziness,Low
+251,Atorvastatin,Loratadine,minor stomach discomfort,Low
+252,Lisinopril,Budesonide,temporary fatigue,Low
+253,Naproxen,Atorvastatin,heart rhythm complications,High
+254,Paracetamol,Loratadine,mild dizziness,Low
+255,Naproxen,Clopidogrel,minor stomach discomfort,Low
+256,Amlodipine,Metformin,increased blood pressure,Medium
+257,Insulin,Salbutamol,moderate kidney stress,Medium
+258,Naproxen,Sumatriptan,moderate kidney stress,Medium
+259,Metformin,Losartan,mild dizziness,Low
+260,Amlodipine,Cetirizine,mild dizziness,Low
+261,Amlodipine,Insulin,increased blood pressure,Medium
+262,Amlodipine,Salbutamol,heart rhythm complications,High
+263,Naproxen,Salbutamol,respiratory complications,High
+264,Clopidogrel,Furosemide,temporary fatigue,Low
+265,Atorvastatin,Ibuprofen,reduced drug effectiveness,Medium
+266,Clopidogrel,Loratadine,reduced drug effectiveness,Medium
+267,Lisinopril,Naproxen,temporary fatigue,Low
+268,Naproxen,Losartan,respiratory complications,High
+269,Furosemide,Salbutamol,minor stomach discomfort,Low
+270,Losartan,Insulin,respiratory complications,High
+271,Lisinopril,Insulin,temporary fatigue,Low
+272,Lisinopril,Naproxen,severe bleeding risk,High
+273,Lisinopril,Salbutamol,moderate kidney stress,Medium
+274,Amlodipine,Budesonide,reduced drug effectiveness,Medium
+275,Loratadine,Salbutamol,increased blood pressure,Medium
+276,Lisinopril,Salbutamol,temporary fatigue,Low
+277,Furosemide,Losartan,temporary fatigue,Low
+278,Clopidogrel,Sumatriptan,moderate kidney stress,Medium
+279,Metformin,Furosemide,reduced drug effectiveness,Medium
+280,Losartan,Ibuprofen,heart rhythm complications,High
+281,Clopidogrel,Metformin,mild dizziness,Low
+282,Metformin,Salbutamol,increased blood pressure,Medium
+283,Losartan,Insulin,heart rhythm complications,High
+284,Paracetamol,Insulin,mild dizziness,Low
+285,Lisinopril,Sumatriptan,temporary fatigue,Low
+286,Amlodipine,Metformin,severe bleeding risk,High
+287,Lisinopril,Furosemide,mild dizziness,Low
+288,Metformin,Ibuprofen,reduced drug effectiveness,Medium
+289,Lisinopril,Loratadine,moderate kidney stress,Medium
+290,Naproxen,Budesonide,increased blood pressure,Medium
+291,Clopidogrel,Atorvastatin,moderate kidney stress,Medium
+292,Clopidogrel,Furosemide,minor stomach discomfort,Low
+293,Paracetamol,Salbutamol,reduced drug effectiveness,Medium
+294,Naproxen,Metformin,severe bleeding risk,High
+295,Cetirizine,Paracetamol,minor stomach discomfort,Low
+296,Losartan,Salbutamol,moderate kidney stress,Medium
+297,Amlodipine,Budesonide,reduced drug effectiveness,Medium
+298,Losartan,Ibuprofen,increased blood pressure,Medium
+299,Atorvastatin,Loratadine,temporary fatigue,Low
+300,Amlodipine,Clopidogrel,severe bleeding risk,High
+301,Amlodipine,Budesonide,minor stomach discomfort,Low
+302,Sumatriptan,Insulin,temporary fatigue,Low
+303,Furosemide,Salbutamol,minor stomach discomfort,Low
+304,Cetirizine,Budesonide,moderate kidney stress,Medium
+305,Amlodipine,Loratadine,respiratory complications,High
+306,Lisinopril,Sumatriptan,temporary fatigue,Low
+307,Lisinopril,Loratadine,temporary fatigue,Low
+308,Lisinopril,Salbutamol,increased blood pressure,Medium
+309,Losartan,Sumatriptan,moderate kidney stress,Medium
+310,Paracetamol,Losartan,moderate kidney stress,Medium
+311,Loratadine,Insulin,increased blood pressure,Medium
+312,Atorvastatin,Budesonide,moderate kidney stress,Medium
+313,Cetirizine,Naproxen,moderate kidney stress,Medium
+314,Lisinopril,Losartan,mild dizziness,Low
+315,Furosemide,Loratadine,temporary fatigue,Low
+316,Sumatriptan,Salbutamol,moderate kidney stress,Medium
+317,Lisinopril,Paracetamol,moderate kidney stress,Medium
+318,Clopidogrel,Metformin,heart rhythm complications,High
+319,Amlodipine,Furosemide,heart rhythm complications,High
+320,Cetirizine,Loratadine,temporary fatigue,Low
+321,Naproxen,Salbutamol,heart rhythm complications,High
+322,Cetirizine,Salbutamol,minor stomach discomfort,Low
+323,Amlodipine,Lisinopril,temporary fatigue,Low
+324,Metformin,Insulin,increased blood pressure,Medium
+325,Budesonide,Salbutamol,moderate kidney stress,Medium
+326,Amlodipine,Atorvastatin,minor stomach discomfort,Low
+327,Lisinopril,Clopidogrel,mild dizziness,Low
+328,Losartan,Ibuprofen,severe bleeding risk,High
+329,Naproxen,Insulin,moderate kidney stress,Medium
+330,Naproxen,Salbutamol,mild dizziness,Low
+331,Cetirizine,Metformin,severe bleeding risk,High
+332,Lisinopril,Salbutamol,heart rhythm complications,High
+333,Lisinopril,Clopidogrel,severe bleeding risk,High
+334,Losartan,Atorvastatin,moderate kidney stress,Medium
+335,Lisinopril,Paracetamol,mild dizziness,Low
+336,Furosemide,Sumatriptan,minor stomach discomfort,Low
+337,Amlodipine,Cetirizine,moderate kidney stress,Medium
+338,Cetirizine,Budesonide,moderate kidney stress,Medium
+339,Paracetamol,Losartan,moderate kidney stress,Medium
+340,Clopidogrel,Furosemide,mild dizziness,Low
+341,Metformin,Sumatriptan,reduced drug effectiveness,Medium
+342,Lisinopril,Paracetamol,temporary fatigue,Low
+343,Naproxen,Metformin,severe bleeding risk,High
+344,Naproxen,Sumatriptan,heart rhythm complications,High
+345,Amlodipine,Salbutamol,reduced drug effectiveness,Medium
+346,Metformin,Salbutamol,temporary fatigue,Low
+347,Furosemide,Insulin,heart rhythm complications,High
+348,Losartan,Ibuprofen,temporary fatigue,Low
+349,Amlodipine,Ibuprofen,temporary fatigue,Low
+350,Paracetamol,Atorvastatin,heart rhythm complications,High
+351,Cetirizine,Clopidogrel,respiratory complications,High
+352,Clopidogrel,Ibuprofen,heart rhythm complications,High
+353,Naproxen,Salbutamol,mild dizziness,Low
+354,Loratadine,Insulin,moderate kidney stress,Medium
+355,Losartan,Sumatriptan,minor stomach discomfort,Low
+356,Paracetamol,Budesonide,reduced drug effectiveness,Medium
+357,Furosemide,Atorvastatin,heart rhythm complications,High
+358,Amlodipine,Loratadine,temporary fatigue,Low
+359,Atorvastatin,Ibuprofen,moderate kidney stress,Medium
+360,Clopidogrel,Ibuprofen,minor stomach discomfort,Low
+361,Furosemide,Atorvastatin,temporary fatigue,Low
+362,Clopidogrel,Budesonide,moderate kidney stress,Medium
+363,Naproxen,Sumatriptan,moderate kidney stress,Medium
+364,Naproxen,Sumatriptan,mild dizziness,Low
+365,Paracetamol,Furosemide,respiratory complications,High
+366,Amlodipine,Budesonide,increased blood pressure,Medium
+367,Losartan,Ibuprofen,temporary fatigue,Low
+368,Furosemide,Sumatriptan,moderate kidney stress,Medium
+369,Naproxen,Salbutamol,respiratory complications,High
+370,Losartan,Insulin,temporary fatigue,Low
+371,Atorvastatin,Loratadine,reduced drug effectiveness,Medium
+372,Metformin,Ibuprofen,severe bleeding risk,High
+373,Naproxen,Budesonide,respiratory complications,High
+374,Losartan,Insulin,moderate kidney stress,Medium
+375,Insulin,Salbutamol,temporary fatigue,Low
+376,Lisinopril,Sumatriptan,minor stomach discomfort,Low
+377,Amlodipine,Budesonide,minor stomach discomfort,Low
+378,Atorvastatin,Budesonide,minor stomach discomfort,Low
+379,Sumatriptan,Ibuprofen,heart rhythm complications,High
+380,Atorvastatin,Salbutamol,reduced drug effectiveness,Medium
+381,Cetirizine,Metformin,mild dizziness,Low
+382,Cetirizine,Salbutamol,moderate kidney stress,Medium
+383,Cetirizine,Furosemide,increased blood pressure,Medium
+384,Lisinopril,Budesonide,moderate kidney stress,Medium
+385,Paracetamol,Ibuprofen,minor stomach discomfort,Low
+386,Losartan,Budesonide,mild dizziness,Low
+387,Sumatriptan,Ibuprofen,increased blood pressure,Medium
+388,Naproxen,Clopidogrel,temporary fatigue,Low
+389,Losartan,Loratadine,severe bleeding risk,High
+390,Cetirizine,Ibuprofen,severe bleeding risk,High
+391,Budesonide,Ibuprofen,moderate kidney stress,Medium
+392,Naproxen,Budesonide,minor stomach discomfort,Low
+393,Paracetamol,Budesonide,minor stomach discomfort,Low
+394,Lisinopril,Insulin,temporary fatigue,Low
+395,Clopidogrel,Budesonide,minor stomach discomfort,Low
+396,Insulin,Budesonide,mild dizziness,Low
+397,Lisinopril,Losartan,mild dizziness,Low
+398,Lisinopril,Loratadine,moderate kidney stress,Medium
+399,Furosemide,Budesonide,reduced drug effectiveness,Medium
+400,Losartan,Budesonide,increased blood pressure,Medium
+401,Naproxen,Insulin,increased blood pressure,Medium
+402,Lisinopril,Insulin,temporary fatigue,Low
+403,Paracetamol,Losartan,respiratory complications,High
+404,Naproxen,Budesonide,severe bleeding risk,High
+405,Furosemide,Salbutamol,minor stomach discomfort,Low
+406,Naproxen,Insulin,minor stomach discomfort,Low
+407,Amlodipine,Ibuprofen,respiratory complications,High
+408,Atorvastatin,Salbutamol,heart rhythm complications,High
+409,Paracetamol,Sumatriptan,increased blood pressure,Medium
+410,Cetirizine,Salbutamol,heart rhythm complications,High
+411,Sumatriptan,Loratadine,temporary fatigue,Low
+412,Lisinopril,Paracetamol,reduced drug effectiveness,Medium
+413,Amlodipine,Clopidogrel,moderate kidney stress,Medium
+414,Lisinopril,Salbutamol,mild dizziness,Low
+415,Clopidogrel,Furosemide,increased blood pressure,Medium
+416,Lisinopril,Metformin,mild dizziness,Low
+417,Amlodipine,Naproxen,heart rhythm complications,High
+418,Sumatriptan,Budesonide,moderate kidney stress,Medium
+419,Metformin,Loratadine,severe bleeding risk,High
+420,Naproxen,Ibuprofen,temporary fatigue,Low
+421,Metformin,Salbutamol,temporary fatigue,Low
+422,Loratadine,Salbutamol,heart rhythm complications,High
+423,Losartan,Insulin,minor stomach discomfort,Low
+424,Atorvastatin,Budesonide,heart rhythm complications,High
+425,Naproxen,Atorvastatin,mild dizziness,Low
+426,Cetirizine,Ibuprofen,increased blood pressure,Medium
+427,Furosemide,Insulin,temporary fatigue,Low
+428,Cetirizine,Metformin,moderate kidney stress,Medium
+429,Lisinopril,Naproxen,temporary fatigue,Low
+430,Furosemide,Ibuprofen,reduced drug effectiveness,Medium
+431,Amlodipine,Ibuprofen,respiratory complications,High
+432,Cetirizine,Naproxen,moderate kidney stress,Medium
+433,Furosemide,Budesonide,moderate kidney stress,Medium
+434,Sumatriptan,Loratadine,heart rhythm complications,High
+435,Cetirizine,Losartan,increased blood pressure,Medium
+436,Clopidogrel,Atorvastatin,reduced drug effectiveness,Medium
+437,Paracetamol,Furosemide,increased blood pressure,Medium
+438,Amlodipine,Naproxen,moderate kidney stress,Medium
+439,Paracetamol,Salbutamol,minor stomach discomfort,Low
+440,Clopidogrel,Insulin,severe bleeding risk,High
+441,Amlodipine,Atorvastatin,increased blood pressure,Medium
+442,Losartan,Atorvastatin,minor stomach discomfort,Low
+443,Insulin,Budesonide,moderate kidney stress,Medium
+444,Paracetamol,Losartan,moderate kidney stress,Medium
+445,Losartan,Ibuprofen,heart rhythm complications,High
+446,Lisinopril,Ibuprofen,reduced drug effectiveness,Medium
+447,Metformin,Atorvastatin,reduced drug effectiveness,Medium
+448,Naproxen,Clopidogrel,temporary fatigue,Low
+449,Naproxen,Ibuprofen,temporary fatigue,Low
+450,Furosemide,Loratadine,increased blood pressure,Medium
+451,Paracetamol,Sumatriptan,minor stomach discomfort,Low
+452,Paracetamol,Furosemide,mild dizziness,Low
+453,Paracetamol,Sumatriptan,minor stomach discomfort,Low
+454,Losartan,Sumatriptan,mild dizziness,Low
+455,Cetirizine,Metformin,severe bleeding risk,High
+456,Sumatriptan,Insulin,temporary fatigue,Low
+457,Budesonide,Salbutamol,increased blood pressure,Medium
+458,Naproxen,Clopidogrel,minor stomach discomfort,Low
+459,Metformin,Ibuprofen,moderate kidney stress,Medium
+460,Naproxen,Loratadine,heart rhythm complications,High
+461,Furosemide,Budesonide,reduced drug effectiveness,Medium
+462,Lisinopril,Sumatriptan,minor stomach discomfort,Low
+463,Lisinopril,Atorvastatin,reduced drug effectiveness,Medium
+464,Clopidogrel,Ibuprofen,minor stomach discomfort,Low
+465,Naproxen,Budesonide,minor stomach discomfort,Low
+466,Paracetamol,Ibuprofen,reduced drug effectiveness,Medium
+467,Clopidogrel,Losartan,moderate kidney stress,Medium
+468,Cetirizine,Paracetamol,temporary fatigue,Low
+469,Amlodipine,Losartan,severe bleeding risk,High
+470,Furosemide,Loratadine,mild dizziness,Low
+471,Amlodipine,Lisinopril,respiratory complications,High
+472,Amlodipine,Cetirizine,minor stomach discomfort,Low
+473,Cetirizine,Budesonide,temporary fatigue,Low
+474,Metformin,Budesonide,mild dizziness,Low
+475,Lisinopril,Atorvastatin,temporary fatigue,Low
+476,Clopidogrel,Ibuprofen,mild dizziness,Low
+477,Naproxen,Paracetamol,temporary fatigue,Low
+478,Insulin,Salbutamol,minor stomach discomfort,Low
+479,Metformin,Ibuprofen,minor stomach discomfort,Low
+480,Furosemide,Ibuprofen,severe bleeding risk,High
+481,Clopidogrel,Salbutamol,minor stomach discomfort,Low
+482,Amlodipine,Clopidogrel,moderate kidney stress,Medium
+483,Loratadine,Salbutamol,severe bleeding risk,High
+484,Atorvastatin,Ibuprofen,heart rhythm complications,High
+485,Amlodipine,Ibuprofen,mild dizziness,Low
+486,Paracetamol,Furosemide,increased blood pressure,Medium
+487,Clopidogrel,Ibuprofen,mild dizziness,Low
+488,Paracetamol,Sumatriptan,heart rhythm complications,High
+489,Budesonide,Salbutamol,reduced drug effectiveness,Medium
+490,Atorvastatin,Loratadine,increased blood pressure,Medium
+491,Furosemide,Atorvastatin,reduced drug effectiveness,Medium
+492,Cetirizine,Metformin,mild dizziness,Low
+493,Atorvastatin,Salbutamol,reduced drug effectiveness,Medium
+494,Amlodipine,Paracetamol,minor stomach discomfort,Low
+495,Atorvastatin,Ibuprofen,respiratory complications,High
+496,Furosemide,Ibuprofen,moderate kidney stress,Medium
+497,Amlodipine,Budesonide,severe bleeding risk,High
+498,Furosemide,Losartan,moderate kidney stress,Medium
+499,Metformin,Budesonide,moderate kidney stress,Medium
+500,Metformin,Furosemide,temporary fatigue,Low
+501,Paracetamol,Ibuprofen,minor stomach discomfort,Low
+502,Lisinopril,Clopidogrel,increased blood pressure,Medium
+503,Cetirizine,Loratadine,heart rhythm complications,High
+504,Naproxen,Budesonide,increased blood pressure,Medium
+505,Clopidogrel,Budesonide,mild dizziness,Low
+506,Cetirizine,Salbutamol,moderate kidney stress,Medium
+507,Naproxen,Loratadine,minor stomach discomfort,Low
+508,Losartan,Salbutamol,increased blood pressure,Medium
+509,Metformin,Losartan,severe bleeding risk,High
+510,Amlodipine,Insulin,temporary fatigue,Low
+511,Losartan,Insulin,respiratory complications,High
+512,Lisinopril,Atorvastatin,moderate kidney stress,Medium
+513,Amlodipine,Furosemide,increased blood pressure,Medium
+514,Cetirizine,Insulin,minor stomach discomfort,Low
+515,Metformin,Atorvastatin,temporary fatigue,Low
+516,Loratadine,Budesonide,moderate kidney stress,Medium
+517,Metformin,Losartan,respiratory complications,High
+518,Naproxen,Atorvastatin,increased blood pressure,Medium
+519,Insulin,Salbutamol,minor stomach discomfort,Low
+520,Lisinopril,Sumatriptan,respiratory complications,High
+521,Cetirizine,Ibuprofen,mild dizziness,Low
+522,Clopidogrel,Ibuprofen,temporary fatigue,Low
+523,Paracetamol,Sumatriptan,minor stomach discomfort,Low
+524,Lisinopril,Budesonide,severe bleeding risk,High
+525,Budesonide,Salbutamol,mild dizziness,Low
+526,Furosemide,Losartan,heart rhythm complications,High
+527,Lisinopril,Atorvastatin,severe bleeding risk,High
+528,Naproxen,Atorvastatin,heart rhythm complications,High
+529,Amlodipine,Paracetamol,temporary fatigue,Low
+530,Cetirizine,Metformin,reduced drug effectiveness,Medium
+531,Loratadine,Ibuprofen,respiratory complications,High
+532,Metformin,Ibuprofen,moderate kidney stress,Medium
+533,Cetirizine,Budesonide,temporary fatigue,Low
+534,Losartan,Loratadine,heart rhythm complications,High
+535,Furosemide,Insulin,minor stomach discomfort,Low
+536,Naproxen,Sumatriptan,mild dizziness,Low
+537,Atorvastatin,Salbutamol,reduced drug effectiveness,Medium
+538,Paracetamol,Losartan,temporary fatigue,Low
+539,Naproxen,Insulin,minor stomach discomfort,Low
+540,Lisinopril,Naproxen,increased blood pressure,Medium
+541,Amlodipine,Sumatriptan,increased blood pressure,Medium
+542,Lisinopril,Furosemide,heart rhythm complications,High
+543,Amlodipine,Atorvastatin,minor stomach discomfort,Low
+544,Lisinopril,Losartan,heart rhythm complications,High
+545,Furosemide,Loratadine,moderate kidney stress,Medium
+546,Naproxen,Insulin,minor stomach discomfort,Low
+547,Cetirizine,Sumatriptan,heart rhythm complications,High
+548,Amlodipine,Ibuprofen,reduced drug effectiveness,Medium
+549,Sumatriptan,Loratadine,severe bleeding risk,High
+550,Amlodipine,Insulin,reduced drug effectiveness,Medium
+551,Lisinopril,Insulin,mild dizziness,Low
+552,Clopidogrel,Loratadine,increased blood pressure,Medium
+553,Cetirizine,Naproxen,minor stomach discomfort,Low
+554,Lisinopril,Sumatriptan,temporary fatigue,Low
+555,Atorvastatin,Ibuprofen,minor stomach discomfort,Low
+556,Paracetamol,Sumatriptan,temporary fatigue,Low
+557,Lisinopril,Metformin,increased blood pressure,Medium
+558,Furosemide,Losartan,severe bleeding risk,High
+559,Losartan,Salbutamol,minor stomach discomfort,Low
+560,Amlodipine,Paracetamol,increased blood pressure,Medium
+561,Naproxen,Metformin,heart rhythm complications,High
+562,Budesonide,Ibuprofen,minor stomach discomfort,Low
+563,Lisinopril,Insulin,severe bleeding risk,High
+564,Naproxen,Insulin,minor stomach discomfort,Low
+565,Clopidogrel,Salbutamol,mild dizziness,Low
+566,Paracetamol,Insulin,temporary fatigue,Low
+567,Losartan,Atorvastatin,reduced drug effectiveness,Medium
+568,Amlodipine,Atorvastatin,respiratory complications,High
+569,Metformin,Losartan,mild dizziness,Low
+570,Lisinopril,Metformin,reduced drug effectiveness,Medium
+571,Amlodipine,Losartan,mild dizziness,Low
+572,Naproxen,Ibuprofen,increased blood pressure,Medium
+573,Paracetamol,Loratadine,moderate kidney stress,Medium
+574,Ibuprofen,Salbutamol,mild dizziness,Low
+575,Lisinopril,Metformin,respiratory complications,High
+576,Cetirizine,Naproxen,mild dizziness,Low
+577,Metformin,Budesonide,minor stomach discomfort,Low
+578,Losartan,Salbutamol,increased blood pressure,Medium
+579,Losartan,Ibuprofen,moderate kidney stress,Medium
+580,Metformin,Sumatriptan,temporary fatigue,Low
+581,Sumatriptan,Loratadine,respiratory complications,High
+582,Paracetamol,Ibuprofen,temporary fatigue,Low
+583,Paracetamol,Sumatriptan,temporary fatigue,Low
+584,Cetirizine,Clopidogrel,moderate kidney stress,Medium
+585,Cetirizine,Paracetamol,temporary fatigue,Low
+586,Clopidogrel,Atorvastatin,increased blood pressure,Medium
+587,Clopidogrel,Atorvastatin,reduced drug effectiveness,Medium
+588,Lisinopril,Salbutamol,temporary fatigue,Low
+589,Losartan,Sumatriptan,minor stomach discomfort,Low
+590,Cetirizine,Paracetamol,heart rhythm complications,High
+591,Losartan,Loratadine,minor stomach discomfort,Low
+592,Lisinopril,Metformin,minor stomach discomfort,Low
+593,Furosemide,Ibuprofen,severe bleeding risk,High
+594,Naproxen,Budesonide,temporary fatigue,Low
+595,Naproxen,Furosemide,minor stomach discomfort,Low
+596,Naproxen,Salbutamol,heart rhythm complications,High
+597,Losartan,Sumatriptan,reduced drug effectiveness,Medium
+598,Clopidogrel,Sumatriptan,minor stomach discomfort,Low
+599,Furosemide,Atorvastatin,temporary fatigue,Low
+600,Metformin,Losartan,mild dizziness,Low
+601,Furosemide,Salbutamol,mild dizziness,Low
+602,Loratadine,Budesonide,moderate kidney stress,Medium
+603,Naproxen,Losartan,respiratory complications,High
+604,Loratadine,Insulin,reduced drug effectiveness,Medium
+605,Naproxen,Atorvastatin,increased blood pressure,Medium
+606,Naproxen,Insulin,mild dizziness,Low
+607,Metformin,Sumatriptan,reduced drug effectiveness,Medium
+608,Insulin,Ibuprofen,respiratory complications,High
+609,Naproxen,Ibuprofen,mild dizziness,Low
+610,Naproxen,Metformin,increased blood pressure,Medium
+611,Furosemide,Losartan,temporary fatigue,Low
+612,Clopidogrel,Paracetamol,minor stomach discomfort,Low
+613,Amlodipine,Clopidogrel,reduced drug effectiveness,Medium
+614,Metformin,Budesonide,reduced drug effectiveness,Medium
+615,Losartan,Insulin,increased blood pressure,Medium
+616,Paracetamol,Ibuprofen,increased blood pressure,Medium
+617,Lisinopril,Paracetamol,reduced drug effectiveness,Medium
+618,Cetirizine,Metformin,severe bleeding risk,High
+619,Losartan,Ibuprofen,heart rhythm complications,High
+620,Paracetamol,Sumatriptan,respiratory complications,High
+621,Metformin,Losartan,increased blood pressure,Medium
+622,Furosemide,Sumatriptan,mild dizziness,Low
+623,Amlodipine,Loratadine,mild dizziness,Low
+624,Naproxen,Clopidogrel,heart rhythm complications,High
+625,Ibuprofen,Salbutamol,severe bleeding risk,High
+626,Losartan,Insulin,mild dizziness,Low
+627,Cetirizine,Budesonide,heart rhythm complications,High
+628,Paracetamol,Loratadine,respiratory complications,High
+629,Insulin,Ibuprofen,heart rhythm complications,High
+630,Naproxen,Metformin,reduced drug effectiveness,Medium
+631,Cetirizine,Insulin,temporary fatigue,Low
+632,Lisinopril,Furosemide,severe bleeding risk,High
+633,Lisinopril,Furosemide,moderate kidney stress,Medium
+634,Insulin,Salbutamol,increased blood pressure,Medium
+635,Metformin,Insulin,reduced drug effectiveness,Medium
+636,Furosemide,Budesonide,respiratory complications,High
+637,Sumatriptan,Ibuprofen,severe bleeding risk,High
+638,Furosemide,Losartan,heart rhythm complications,High
+639,Amlodipine,Budesonide,increased blood pressure,Medium
+640,Loratadine,Ibuprofen,minor stomach discomfort,Low
+641,Clopidogrel,Insulin,mild dizziness,Low
+642,Paracetamol,Furosemide,reduced drug effectiveness,Medium
+643,Ibuprofen,Salbutamol,moderate kidney stress,Medium
+644,Lisinopril,Sumatriptan,increased blood pressure,Medium
+645,Clopidogrel,Budesonide,respiratory complications,High
+646,Naproxen,Paracetamol,severe bleeding risk,High
+647,Loratadine,Salbutamol,mild dizziness,Low
+648,Lisinopril,Clopidogrel,moderate kidney stress,Medium
+649,Naproxen,Insulin,severe bleeding risk,High
+650,Ibuprofen,Salbutamol,moderate kidney stress,Medium
+651,Lisinopril,Insulin,heart rhythm complications,High
+652,Cetirizine,Loratadine,increased blood pressure,Medium
+653,Naproxen,Furosemide,reduced drug effectiveness,Medium
+654,Amlodipine,Naproxen,moderate kidney stress,Medium
+655,Naproxen,Salbutamol,heart rhythm complications,High
+656,Sumatriptan,Ibuprofen,temporary fatigue,Low
+657,Cetirizine,Atorvastatin,severe bleeding risk,High
+658,Clopidogrel,Budesonide,mild dizziness,Low
+659,Amlodipine,Furosemide,moderate kidney stress,Medium
+660,Cetirizine,Budesonide,minor stomach discomfort,Low
+661,Naproxen,Metformin,temporary fatigue,Low
+662,Losartan,Ibuprofen,moderate kidney stress,Medium
+663,Amlodipine,Loratadine,mild dizziness,Low
+664,Lisinopril,Naproxen,respiratory complications,High
+665,Amlodipine,Cetirizine,increased blood pressure,Medium
+666,Cetirizine,Insulin,minor stomach discomfort,Low
+667,Naproxen,Sumatriptan,temporary fatigue,Low
+668,Furosemide,Sumatriptan,minor stomach discomfort,Low
+669,Naproxen,Clopidogrel,temporary fatigue,Low
+670,Sumatriptan,Salbutamol,heart rhythm complications,High
+671,Naproxen,Ibuprofen,increased blood pressure,Medium
+672,Naproxen,Paracetamol,moderate kidney stress,Medium
+673,Lisinopril,Loratadine,reduced drug effectiveness,Medium
+674,Amlodipine,Loratadine,respiratory complications,High
+675,Amlodipine,Loratadine,heart rhythm complications,High
+676,Loratadine,Insulin,increased blood pressure,Medium
+677,Amlodipine,Naproxen,severe bleeding risk,High
+678,Cetirizine,Metformin,minor stomach discomfort,Low
+679,Amlodipine,Atorvastatin,mild dizziness,Low
+680,Atorvastatin,Sumatriptan,mild dizziness,Low
+681,Amlodipine,Cetirizine,moderate kidney stress,Medium
+682,Atorvastatin,Ibuprofen,temporary fatigue,Low
+683,Amlodipine,Sumatriptan,temporary fatigue,Low
+684,Loratadine,Budesonide,respiratory complications,High
+685,Loratadine,Budesonide,temporary fatigue,Low
+686,Amlodipine,Ibuprofen,increased blood pressure,Medium
+687,Furosemide,Ibuprofen,temporary fatigue,Low
+688,Budesonide,Salbutamol,mild dizziness,Low
+689,Furosemide,Salbutamol,severe bleeding risk,High
+690,Clopidogrel,Paracetamol,increased blood pressure,Medium
+691,Lisinopril,Budesonide,mild dizziness,Low
+692,Naproxen,Loratadine,temporary fatigue,Low
+693,Lisinopril,Loratadine,increased blood pressure,Medium
+694,Furosemide,Ibuprofen,respiratory complications,High
+695,Furosemide,Ibuprofen,minor stomach discomfort,Low
+696,Losartan,Sumatriptan,increased blood pressure,Medium
+697,Clopidogrel,Furosemide,mild dizziness,Low
+698,Amlodipine,Loratadine,mild dizziness,Low
+699,Cetirizine,Furosemide,temporary fatigue,Low
+700,Metformin,Ibuprofen,respiratory complications,High
+701,Lisinopril,Cetirizine,increased blood pressure,Medium
+702,Lisinopril,Loratadine,minor stomach discomfort,Low
+703,Losartan,Budesonide,severe bleeding risk,High
+704,Naproxen,Insulin,moderate kidney stress,Medium
+705,Cetirizine,Loratadine,moderate kidney stress,Medium
+706,Paracetamol,Budesonide,minor stomach discomfort,Low
+707,Cetirizine,Paracetamol,respiratory complications,High
+708,Cetirizine,Clopidogrel,moderate kidney stress,Medium
+709,Loratadine,Salbutamol,heart rhythm complications,High
+710,Cetirizine,Sumatriptan,increased blood pressure,Medium
+711,Amlodipine,Losartan,minor stomach discomfort,Low
+712,Insulin,Ibuprofen,moderate kidney stress,Medium
+713,Losartan,Budesonide,severe bleeding risk,High
+714,Furosemide,Sumatriptan,moderate kidney stress,Medium
+715,Clopidogrel,Losartan,temporary fatigue,Low
+716,Furosemide,Sumatriptan,temporary fatigue,Low
+717,Losartan,Salbutamol,heart rhythm complications,High
+718,Furosemide,Budesonide,moderate kidney stress,Medium
+719,Amlodipine,Atorvastatin,moderate kidney stress,Medium
+720,Sumatriptan,Budesonide,minor stomach discomfort,Low
+721,Losartan,Insulin,heart rhythm complications,High
+722,Clopidogrel,Ibuprofen,minor stomach discomfort,Low
+723,Cetirizine,Ibuprofen,moderate kidney stress,Medium
+724,Lisinopril,Loratadine,mild dizziness,Low
+725,Amlodipine,Paracetamol,reduced drug effectiveness,Medium
+726,Clopidogrel,Sumatriptan,heart rhythm complications,High
+727,Budesonide,Salbutamol,reduced drug effectiveness,Medium
+728,Clopidogrel,Sumatriptan,heart rhythm complications,High
+729,Clopidogrel,Losartan,temporary fatigue,Low
+730,Losartan,Budesonide,mild dizziness,Low
+731,Loratadine,Budesonide,minor stomach discomfort,Low
+732,Naproxen,Sumatriptan,respiratory complications,High
+733,Lisinopril,Paracetamol,mild dizziness,Low
+734,Clopidogrel,Paracetamol,moderate kidney stress,Medium
+735,Insulin,Ibuprofen,temporary fatigue,Low
+736,Lisinopril,Sumatriptan,mild dizziness,Low
+737,Naproxen,Insulin,reduced drug effectiveness,Medium
+738,Naproxen,Metformin,minor stomach discomfort,Low
+739,Naproxen,Insulin,temporary fatigue,Low
+740,Cetirizine,Atorvastatin,minor stomach discomfort,Low
+741,Paracetamol,Atorvastatin,reduced drug effectiveness,Medium
+742,Clopidogrel,Paracetamol,severe bleeding risk,High
+743,Clopidogrel,Budesonide,severe bleeding risk,High
+744,Naproxen,Furosemide,severe bleeding risk,High
+745,Cetirizine,Salbutamol,moderate kidney stress,Medium
+746,Cetirizine,Loratadine,temporary fatigue,Low
+747,Clopidogrel,Ibuprofen,heart rhythm complications,High
+748,Clopidogrel,Budesonide,minor stomach discomfort,Low
+749,Paracetamol,Insulin,temporary fatigue,Low
+750,Cetirizine,Budesonide,reduced drug effectiveness,Medium
+751,Paracetamol,Sumatriptan,mild dizziness,Low
+752,Metformin,Losartan,temporary fatigue,Low
+753,Naproxen,Atorvastatin,severe bleeding risk,High
+754,Naproxen,Atorvastatin,reduced drug effectiveness,Medium
+755,Amlodipine,Atorvastatin,minor stomach discomfort,Low
+756,Naproxen,Salbutamol,minor stomach discomfort,Low
+757,Furosemide,Insulin,minor stomach discomfort,Low
+758,Paracetamol,Budesonide,heart rhythm complications,High
+759,Atorvastatin,Loratadine,minor stomach discomfort,Low
+760,Metformin,Ibuprofen,moderate kidney stress,Medium
+761,Lisinopril,Loratadine,heart rhythm complications,High
+762,Atorvastatin,Loratadine,increased blood pressure,Medium
+763,Furosemide,Ibuprofen,increased blood pressure,Medium
+764,Atorvastatin,Salbutamol,heart rhythm complications,High
+765,Metformin,Budesonide,increased blood pressure,Medium
+766,Cetirizine,Ibuprofen,increased blood pressure,Medium
+767,Naproxen,Loratadine,moderate kidney stress,Medium
+768,Cetirizine,Salbutamol,minor stomach discomfort,Low
+769,Clopidogrel,Sumatriptan,moderate kidney stress,Medium
+770,Cetirizine,Losartan,minor stomach discomfort,Low
+771,Atorvastatin,Sumatriptan,minor stomach discomfort,Low
+772,Furosemide,Salbutamol,mild dizziness,Low
+773,Clopidogrel,Loratadine,temporary fatigue,Low
+774,Amlodipine,Lisinopril,temporary fatigue,Low
+775,Clopidogrel,Insulin,reduced drug effectiveness,Medium
+776,Cetirizine,Ibuprofen,reduced drug effectiveness,Medium
+777,Paracetamol,Atorvastatin,severe bleeding risk,High
+778,Sumatriptan,Loratadine,severe bleeding risk,High
+779,Budesonide,Salbutamol,increased blood pressure,Medium
+780,Cetirizine,Loratadine,moderate kidney stress,Medium
+781,Loratadine,Salbutamol,temporary fatigue,Low
+782,Cetirizine,Sumatriptan,minor stomach discomfort,Low
+783,Clopidogrel,Metformin,increased blood pressure,Medium
+784,Cetirizine,Insulin,mild dizziness,Low
+785,Cetirizine,Loratadine,temporary fatigue,Low
+786,Paracetamol,Ibuprofen,increased blood pressure,Medium
+787,Naproxen,Atorvastatin,increased blood pressure,Medium
+788,Clopidogrel,Losartan,moderate kidney stress,Medium
+789,Lisinopril,Furosemide,reduced drug effectiveness,Medium
+790,Amlodipine,Ibuprofen,heart rhythm complications,High
+791,Cetirizine,Atorvastatin,temporary fatigue,Low
+792,Clopidogrel,Atorvastatin,temporary fatigue,Low
+793,Lisinopril,Naproxen,mild dizziness,Low
+794,Lisinopril,Cetirizine,minor stomach discomfort,Low
+795,Metformin,Loratadine,increased blood pressure,Medium
+796,Cetirizine,Ibuprofen,heart rhythm complications,High
+797,Metformin,Loratadine,minor stomach discomfort,Low
+798,Paracetamol,Ibuprofen,mild dizziness,Low
+799,Cetirizine,Salbutamol,increased blood pressure,Medium
+800,Paracetamol,Ibuprofen,temporary fatigue,Low
+801,Losartan,Budesonide,moderate kidney stress,Medium
+802,Amlodipine,Losartan,moderate kidney stress,Medium
+803,Lisinopril,Naproxen,increased blood pressure,Medium
+804,Lisinopril,Clopidogrel,temporary fatigue,Low
+805,Lisinopril,Furosemide,severe bleeding risk,High
+806,Amlodipine,Insulin,reduced drug effectiveness,Medium
+807,Naproxen,Metformin,minor stomach discomfort,Low
+808,Losartan,Budesonide,minor stomach discomfort,Low
+809,Metformin,Sumatriptan,minor stomach discomfort,Low
+810,Paracetamol,Ibuprofen,moderate kidney stress,Medium
+811,Lisinopril,Paracetamol,increased blood pressure,Medium
+812,Atorvastatin,Salbutamol,mild dizziness,Low
+813,Amlodipine,Salbutamol,reduced drug effectiveness,Medium
+814,Cetirizine,Naproxen,temporary fatigue,Low
+815,Furosemide,Loratadine,increased blood pressure,Medium
+816,Paracetamol,Ibuprofen,severe bleeding risk,High
+817,Clopidogrel,Insulin,mild dizziness,Low
+818,Losartan,Ibuprofen,mild dizziness,Low
+819,Loratadine,Budesonide,minor stomach discomfort,Low
+820,Cetirizine,Salbutamol,temporary fatigue,Low
+821,Furosemide,Atorvastatin,temporary fatigue,Low
+822,Losartan,Ibuprofen,mild dizziness,Low
+823,Furosemide,Atorvastatin,reduced drug effectiveness,Medium
+824,Metformin,Loratadine,mild dizziness,Low
+825,Paracetamol,Furosemide,mild dizziness,Low
+826,Metformin,Salbutamol,reduced drug effectiveness,Medium
+827,Furosemide,Budesonide,minor stomach discomfort,Low
+828,Metformin,Paracetamol,severe bleeding risk,High
+829,Naproxen,Insulin,temporary fatigue,Low
+830,Amlodipine,Lisinopril,respiratory complications,High
+831,Paracetamol,Loratadine,temporary fatigue,Low
+832,Naproxen,Atorvastatin,increased blood pressure,Medium
+833,Sumatriptan,Insulin,temporary fatigue,Low
+834,Cetirizine,Paracetamol,minor stomach discomfort,Low
+835,Insulin,Budesonide,mild dizziness,Low
+836,Paracetamol,Salbutamol,mild dizziness,Low
+837,Clopidogrel,Losartan,moderate kidney stress,Medium
+838,Furosemide,Atorvastatin,reduced drug effectiveness,Medium
+839,Lisinopril,Budesonide,mild dizziness,Low
+840,Naproxen,Loratadine,respiratory complications,High
+841,Ibuprofen,Salbutamol,severe bleeding risk,High
+842,Losartan,Ibuprofen,moderate kidney stress,Medium
+843,Cetirizine,Insulin,respiratory complications,High
+844,Lisinopril,Ibuprofen,heart rhythm complications,High
+845,Naproxen,Losartan,moderate kidney stress,Medium
+846,Paracetamol,Insulin,minor stomach discomfort,Low
+847,Lisinopril,Ibuprofen,reduced drug effectiveness,Medium
+848,Amlodipine,Cetirizine,mild dizziness,Low
+849,Loratadine,Insulin,minor stomach discomfort,Low
+850,Losartan,Atorvastatin,minor stomach discomfort,Low
+851,Clopidogrel,Atorvastatin,respiratory complications,High
+852,Losartan,Budesonide,minor stomach discomfort,Low
+853,Clopidogrel,Insulin,reduced drug effectiveness,Medium
+854,Atorvastatin,Insulin,severe bleeding risk,High
+855,Amlodipine,Sumatriptan,increased blood pressure,Medium
+856,Sumatriptan,Salbutamol,mild dizziness,Low
+857,Sumatriptan,Salbutamol,minor stomach discomfort,Low
+858,Ibuprofen,Salbutamol,minor stomach discomfort,Low
+859,Naproxen,Sumatriptan,increased blood pressure,Medium
+860,Amlodipine,Budesonide,mild dizziness,Low
+861,Paracetamol,Ibuprofen,minor stomach discomfort,Low
+862,Losartan,Loratadine,severe bleeding risk,High
+863,Cetirizine,Atorvastatin,increased blood pressure,Medium
+864,Cetirizine,Insulin,increased blood pressure,Medium
+865,Cetirizine,Insulin,minor stomach discomfort,Low
+866,Ibuprofen,Salbutamol,severe bleeding risk,High
+867,Lisinopril,Cetirizine,respiratory complications,High
+868,Furosemide,Loratadine,reduced drug effectiveness,Medium
+869,Lisinopril,Atorvastatin,mild dizziness,Low
+870,Losartan,Atorvastatin,temporary fatigue,Low
+871,Furosemide,Insulin,reduced drug effectiveness,Medium
+872,Amlodipine,Naproxen,reduced drug effectiveness,Medium
+873,Amlodipine,Atorvastatin,increased blood pressure,Medium
+874,Lisinopril,Ibuprofen,temporary fatigue,Low
+875,Naproxen,Sumatriptan,minor stomach discomfort,Low
+876,Clopidogrel,Paracetamol,heart rhythm complications,High
+877,Lisinopril,Atorvastatin,respiratory complications,High
+878,Insulin,Budesonide,mild dizziness,Low
+879,Losartan,Salbutamol,respiratory complications,High
+880,Cetirizine,Sumatriptan,increased blood pressure,Medium
+881,Atorvastatin,Budesonide,temporary fatigue,Low
+882,Cetirizine,Losartan,severe bleeding risk,High
+883,Cetirizine,Clopidogrel,increased blood pressure,Medium
+884,Paracetamol,Salbutamol,temporary fatigue,Low
+885,Sumatriptan,Insulin,respiratory complications,High
+886,Furosemide,Budesonide,increased blood pressure,Medium
+887,Furosemide,Salbutamol,severe bleeding risk,High
+888,Cetirizine,Sumatriptan,temporary fatigue,Low
+889,Naproxen,Atorvastatin,reduced drug effectiveness,Medium
+890,Metformin,Sumatriptan,temporary fatigue,Low
+891,Insulin,Ibuprofen,temporary fatigue,Low
+892,Metformin,Sumatriptan,temporary fatigue,Low
+893,Paracetamol,Budesonide,mild dizziness,Low
+894,Metformin,Salbutamol,reduced drug effectiveness,Medium
+895,Naproxen,Paracetamol,increased blood pressure,Medium
+896,Atorvastatin,Salbutamol,reduced drug effectiveness,Medium
+897,Furosemide,Sumatriptan,reduced drug effectiveness,Medium
+898,Clopidogrel,Paracetamol,minor stomach discomfort,Low
+899,Loratadine,Salbutamol,minor stomach discomfort,Low
+900,Paracetamol,Ibuprofen,moderate kidney stress,Medium
